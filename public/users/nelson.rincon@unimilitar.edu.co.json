@@ -337,37 +337,37 @@
     },
     {
       "id": "UMNG-OPT1",
-      "nombre": "Optativa 1: Comunicación Estratégica de la Ciencia",
+      "nombre": "Optativa 1: Comunicaci�n Estrat�gica de la Ciencia Aplicada",
       "semestre": 5,
       "eje": "Aplicaci�n (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
         "title": "A. Optativa 1: ComunicaciÃƒÆ’Ã‚Â³n EstratÃƒÆ’Ã‚Â©gica de la Ciencia Aplicada",
-        "justificacion": "El egresado de este programa debe ser capaz de comunicar informaciÃƒÆ’Ã‚Â³n cientÃƒÆ’Ã‚Â­fica compleja a audiencias diversas 9: a sus pares (artÃƒÆ’Ã‚Â­culos), a agencias de financiaciÃƒÆ’Ã‚Â³n (propuestas), a inversionistas de capital de riesgo (pitch de startup) y al pÃƒÆ’Ã‚Âºblico general (divulgaciÃƒÆ’Ã‚Â³n).8 Esta asignatura es un habilitador directo del modelo de emprendimiento (LÃƒÆ’Ã‚Â­nea 'd').",
+        "justificacion": "El egresado de este programa debe ser capaz de comunicar informaci�n cient�fica compleja a audiencias diversas 9: a sus pares (art�culos), a agencias de financiaci�n (propuestas), a inversionistas de capital de riesgo (pitch de startup) y al p�blico general (divulgaci�n).8 Esta asignatura es un habilitador directo del modelo de emprendimiento (L�nea 'd').",
         "syllabus": [
           {
             "unidad": "1. Fundamentos",
-            "temas": "IdentificaciÃƒÆ’Ã‚Â³n de audiencia, mensaje y propÃƒÆ’Ã‚Â³sito. ÃƒÆ’Ã¢â‚¬Â°tica en la comunicaciÃƒÆ’Ã‚Â³n. Estructura del argumento cientÃƒÆ’Ã‚Â­fico.",
-            "objetivos": "Reconocer y adaptarse a las necesidades de audiencias diversas (cientÃƒÆ’Ã‚Â­ficas y no cientÃƒÆ’Ã‚Â­ficas).",
+            "temas": "Identificaci�n de audiencia, mensaje y prop�sito. �tica en la comunicaci�n. Estructura del argumento cient�fico.",
+            "objetivos": "Reconocer y adaptarse a las necesidades de audiencias diversas (cient�ficas y no cient�ficas).",
             "fuentes": "44"
           },
           {
-            "unidad": "2. ComunicaciÃƒÆ’Ã‚Â³n Escrita",
-            "temas": "RedacciÃƒÆ’Ã‚Â³n de abstracts. Estructura de artÃƒÆ’Ã‚Â­culo cientÃƒÆ’Ã‚Â­fico (estilo IEEE/APS). RedacciÃƒÆ’Ã‚Â³n de propuestas de financiaciÃƒÆ’Ã‚Â³n (estilo MinCiencias/NSF).",
-            "objetivos": "Producir documentos tÃƒÆ’Ã‚Â©cnicos claros, concisos y persuasivos para la publicaciÃƒÆ’Ã‚Â³n y la financiaciÃƒÆ’Ã‚Â³n.",
+            "unidad": "2. Comunicaci�n Escrita",
+            "temas": "Redacci�n de abstracts. Estructura de art�culo cient�fico (estilo IEEE/APS). Redacci�n de propuestas de financiaci�n (estilo MinCiencias/NSF).",
+            "objetivos": "Producir documentos t�cnicos claros, concisos y persuasivos para la publicaci�n y la financiaci�n.",
             "fuentes": "8"
           },
           {
-            "unidad": "3. ComunicaciÃƒÆ’Ã‚Â³n Oral",
-            "temas": "DiseÃƒÆ’Ã‚Â±o de diapositivas efectivas (evitando \"muerte por PowerPoint\"). Defensa de pÃƒÆ’Ã‚Â³ster cientÃƒÆ’Ã‚Â­fico. \"El pitch de 3 minutos\" para emprendimiento.",
-            "objetivos": "Presentar investigaciÃƒÆ’Ã‚Â³n de forma oral, visual y profesional en formatos de conferencia y de negocios.",
+            "unidad": "3. Comunicaci�n Oral",
+            "temas": "Dise�o de diapositivas efectivas (evitando \"muerte por PowerPoint\"). Defensa de p�ster cient�fico. \"El pitch de 3 minutos\" para emprendimiento.",
+            "objetivos": "Presentar investigaci�n de forma oral, visual y profesional en formatos de conferencia y de negocios.",
             "fuentes": "8"
           },
           {
-            "unidad": "4. ComunicaciÃƒÆ’Ã‚Â³n PÃƒÆ’Ã‚Âºblica",
-            "temas": "TraducciÃƒÆ’Ã‚Â³n de la jerga cientÃƒÆ’Ã‚Â­fica. RedacciÃƒÆ’Ã‚Â³n de artÃƒÆ’Ã‚Â­culos de divulgaciÃƒÆ’Ã‚Â³n (estilo popular media). Uso de medios digitales y redes sociales para la ciencia.",
-            "objetivos": "Destilar temas complejos en lenguaje claro y preciso para el pÃƒÆ’Ã‚Âºblico general, combatiendo la desinformaciÃƒÆ’Ã‚Â³n.",
+            "unidad": "4. Comunicaci�n P�blica",
+            "temas": "Traducci�n de la jerga cient�fica. Redacci�n de art�culos de divulgaci�n (estilo popular media). Uso de medios digitales y redes sociales para la ciencia.",
+            "objetivos": "Destilar temas complejos en lenguaje claro y preciso para el p�blico general, combatiendo la desinformaci�n.",
             "fuentes": "9"
           }
         ]
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:18:10.813Z"
+  "lastUpdated": "2025-12-09T22:22:35.484Z"
 }
