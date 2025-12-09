@@ -153,7 +153,7 @@
     },
     {
       "id": "UMNG-SIM",
-      "nombre": "Simulación de Sistemas Físicos",
+      "nombre": "Simulaci�n de Sistemas F�sicos",
       "semestre": 3,
       "eje": "Transversal 1: Simulaci�n",
       "prerrequisitos": [
@@ -162,7 +162,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -275,7 +275,7 @@
     },
     {
       "id": "UMNG-MOD",
-      "nombre": "Física Moderna y Cuántica",
+      "nombre": "F�sica Moderna y Cu�ntica",
       "semestre": 4,
       "eje": "B�sico (F�sica y Mat)",
       "prerrequisitos": [
@@ -286,7 +286,7 @@
         "UMNG-LABM"
       ],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:27:40.469Z"
+  "lastUpdated": "2025-12-09T22:28:49.583Z"
 }
