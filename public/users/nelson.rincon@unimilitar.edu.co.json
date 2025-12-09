@@ -403,7 +403,7 @@
     },
     {
       "id": "UMNG-QUIMAT",
-      "nombre": "QuÃ­mica de Materiales",
+      "nombre": "Quí­mica de Materiales",
       "semestre": 6,
       "eje": "Aplicación (d, e)",
       "prerrequisitos": [
@@ -411,13 +411,13 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificación detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-OPT2",
-      "nombre": "Optativa 2: DidÃ¡ctica y PedagogÃ­a de la FÃ­sica",
+      "nombre": "Optativa 2: Didáctica y Pedagogí­a de la Fí­sica",
       "semestre": 6,
       "eje": "Aplicación (d, e)",
       "prerrequisitos": [],
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:06:01.517Z"
+  "lastUpdated": "2025-12-09T22:07:55.280Z"
 }
