@@ -306,7 +306,7 @@
     },
     {
       "id": "UMNG-LED",
-      "nombre": "Lab. Electrónica Digital",
+      "nombre": "Lab. Electr�nica Digital",
       "semestre": 5,
       "eje": "Transversal 2: Medici�n",
       "prerrequisitos": [
@@ -316,13 +316,13 @@
         "UMNG-PHV"
       ],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-FES1",
-      "nombre": "Física Estado Sólido I",
+      "nombre": "F�sica Estado S�lido I",
       "semestre": 5,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -331,7 +331,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:22:35.484Z"
+  "lastUpdated": "2025-12-09T22:23:37.799Z"
 }
