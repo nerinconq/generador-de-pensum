@@ -265,7 +265,51 @@ gestor-pensum-carrera/
 ├── README.md
 ├── CHAT_DESARROLLO_PROYECTO_INICIO.md
 ├── SETUP_GITHUB_FIREBASE.md
-└── GITHUB_STORAGE_GUIDE.md (NUEVO)
+├── GITHUB_STORAGE_GUIDE.md (NUEVO)
+└── vercel.json (NUEVO)
+```
+
+## Despliegue en Vercel y Correcciones Finales
+**Fecha**: 9 de diciembre de 2024
+
+### 1. Despliegue en Producción
+- **Plataforma**: Vercel
+- **Método**: Importación directa desde GitHub
+- **Configuración**: Zero-config (detección automática de Vite)
+- **URL**: `https://generador-de-pensum.vercel.app` (aproximado)
+
+### 2. Problema de Codificación de Caracteres
+**Problema Detectado**: Las tildes y caracteres especiales se mostraban incorrectamente (ej: `Ã¡` en lugar de `á`) en la versión desplegada.
+**Causa**: Vercel/Servidor no estaba sirviendo los archivos con el header `Content-Type: text/html; charset=utf-8` explícito o correcta interpretación.
+
+**Solución Implementada**:
+- Creación de archivo de configuración `vercel.json` en la raíz.
+- Forzar headers HTTP para todo el contenido:
+```json
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Commits Adicionales
+
+#### Commit 6: `b9e9722`
+```
+fix: Add UTF-8 encoding configuration for Vercel
+
+- Add vercel.json configuration file
+- Force Content-Type header with charset=utf-8 for all routes
+- Fix character display issues (tildes) in production
 ```
 
 ## Próximos Pasos Sugeridos
