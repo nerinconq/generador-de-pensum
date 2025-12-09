@@ -9,6 +9,7 @@ import { ViewSubjectModal } from './components/ViewSubjectModal';
 import { EditSubjectModal } from './components/EditSubjectModal';
 import { EjeManagerModal } from './components/EjeManagerModal';
 import { WelcomeScreen } from './components/WelcomeScreen';
+import { saveUserDataToGitHub, loadUserDataFromGitHub } from './github-api';
 
 export default function App() {
   // --- State Initialization (with LocalStorage) ---
@@ -57,6 +58,12 @@ export default function App() {
     return !!localStorage.getItem('pensum_started');
   });
 
+  // GitHub Storage State
+  const [githubToken, setGithubToken] = useState<string | null>(() => {
+    return localStorage.getItem('github_token');
+  });
+  const [syncStatus, setSyncStatus] = useState<'idle' | 'saving' | 'synced' | 'error'>('idle');
+
   const [totalSemesters, setTotalSemesters] = useState(() => {
     const saved = localStorage.getItem('pensum_semesters');
     if (saved) return parseInt(saved);
@@ -97,6 +104,34 @@ export default function App() {
   }, [hasStarted]);
   useEffect(() => { localStorage.setItem('pensum_semesters', totalSemesters.toString()); }, [totalSemesters]);
   useEffect(() => { localStorage.setItem('pensum_theme', theme); }, [theme]);
+
+  // Auto-save to GitHub (debounced)
+  useEffect(() => {
+    if (!githubToken || !hasStarted || !programInfo.email) return;
+
+    setSyncStatus('saving');
+    const timer = setTimeout(async () => {
+      const dataToSave = {
+        subjects,
+        ejes,
+        programInfo,
+        totalSemesters,
+        lastUpdated: new Date().toISOString()
+      };
+
+      const result = await saveUserDataToGitHub(programInfo.email!, dataToSave, githubToken);
+
+      if (result.success) {
+        setSyncStatus('synced');
+        setTimeout(() => setSyncStatus('idle'), 2000); // Show "synced" for 2 seconds
+      } else {
+        setSyncStatus('error');
+        console.error('GitHub save error:', result.error);
+      }
+    }, 5000); // 5 second debounce
+
+    return () => clearTimeout(timer);
+  }, [subjects, ejes, programInfo, totalSemesters, githubToken, hasStarted]);
 
 
   // --- Logic ---
@@ -469,10 +504,34 @@ export default function App() {
     return name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 4);
   };
 
-  const handleStart = (uni: string, career: string, email: string) => {
-    setProgramInfo(prev => ({ ...prev, university: uni, name: career, email: email }));
+  const handleStart = async (uni: string, career: string, email: string, token?: string) => {
+    // Save token if provided
+    if (token) {
+      localStorage.setItem('github_token', token);
+      setGithubToken(token);
+
+      // Try to load existing data from GitHub
+      setSyncStatus('saving');
+      const result = await loadUserDataFromGitHub(email);
+
+      if (result.success && result.data) {
+        // Load data from GitHub
+        setSubjects(result.data.subjects || []);
+        setEjes(result.data.ejes || INITIAL_EJES);
+        setTotalSemesters(result.data.totalSemesters || 10);
+        setProgramInfo({ ...result.data.programInfo, email });
+        setSyncStatus('synced');
+      } else {
+        // No existing data, use defaults
+        setProgramInfo(prev => ({ ...prev, university: uni, name: career, email }));
+        setSyncStatus('idle');
+      }
+    } else {
+      // No GitHub token, use localStorage only
+      setProgramInfo(prev => ({ ...prev, university: uni, name: career, email }));
+    }
+
     setHasStarted(true);
-    // Reset logic handled by filtered initial load
   };
 
   const handleLogout = () => {

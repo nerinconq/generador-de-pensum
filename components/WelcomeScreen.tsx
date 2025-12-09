@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 interface WelcomeScreenProps {
-    onStart: (uniName: string, careerName: string, email: string) => void;
+    onStart: (uniName: string, careerName: string, email: string, githubToken?: string) => void;
     theme: 'light' | 'dark';
 }
 
@@ -10,6 +10,8 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStart, theme }) 
     const [uniName, setUniName] = useState('');
     const [careerName, setCareerName] = useState('');
     const [email, setEmail] = useState('');
+    const [useGitHub, setUseGitHub] = useState(false);
+    const [githubToken, setGithubToken] = useState('');
 
     const isDark = theme === 'dark';
 
@@ -22,7 +24,11 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStart, theme }) 
             alert("Por favor ingresa un correo electrónico válido.");
             return;
         }
-        onStart(uniName, careerName, email);
+        if (useGitHub && !githubToken.trim()) {
+            alert("Por favor ingresa tu GitHub Personal Access Token o desactiva 'Usar GitHub Storage'.");
+            return;
+        }
+        onStart(uniName, careerName, email, useGitHub ? githubToken : undefined);
     };
 
     return (
@@ -83,6 +89,40 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStart, theme }) 
                             placeholder="Ej. Ingeniería de Software"
                             className={`w-full p-3 rounded-xl border outline-none transition-all focus:ring-2 focus:ring-purple-500 ${isDark ? 'bg-slate-900/50 border-slate-700 text-white placeholder-slate-600' : 'bg-white border-slate-200 text-slate-800 placeholder-slate-400'}`}
                         />
+                    </div>
+
+                    {/* GitHub Storage Toggle */}
+                    <div className={`p-4 rounded-xl border ${isDark ? 'bg-slate-900/30 border-slate-700' : 'bg-slate-50 border-slate-200'}`}>
+                        <label className="flex items-center cursor-pointer">
+                            <input
+                                type="checkbox"
+                                checked={useGitHub}
+                                onChange={(e) => setUseGitHub(e.target.checked)}
+                                className="w-4 h-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500"
+                            />
+                            <span className={`ml-3 text-sm font-medium ${isDark ? 'text-slate-300' : 'text-slate-700'}`}>
+                                Usar GitHub Storage (Multi-usuario)
+                            </span>
+                        </label>
+                        {useGitHub && (
+                            <div className="mt-3">
+                                <label className={`block text-xs font-bold uppercase tracking-wider mb-2 ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
+                                    GitHub Personal Access Token
+                                </label>
+                                <input
+                                    type="password"
+                                    value={githubToken}
+                                    onChange={(e) => setGithubToken(e.target.value)}
+                                    placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+                                    className={`w-full p-2 text-sm rounded-lg border outline-none transition-all focus:ring-2 focus:ring-indigo-500 ${isDark ? 'bg-slate-900/50 border-slate-700 text-white placeholder-slate-600' : 'bg-white border-slate-200 text-slate-800 placeholder-slate-400'}`}
+                                />
+                                <p className={`mt-1 text-xs ${isDark ? 'text-slate-500' : 'text-slate-400'}`}>
+                                    <a href="https://github.com/settings/tokens/new?scopes=repo&description=Gestor%20Pensum" target="_blank" rel="noopener noreferrer" className="text-indigo-500 hover:underline">
+                                        Generar token aquí
+                                    </a> (requiere scope 'repo')
+                                </p>
+                            </div>
+                        )}
                     </div>
 
                     <button
