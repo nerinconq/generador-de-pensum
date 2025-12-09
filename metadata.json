@@ -1,0 +1,5 @@
+{
+  "name": "Gestor de Pensum Física para la Nanociencia",
+  "description": "Visualizador y editor de malla curricular con gestión de dependencias y sílabos.",
+  "requestFramePermissions": []
+}

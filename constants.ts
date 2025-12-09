@@ -1,0 +1,106 @@
+
+import { ProgramData, Subject, Eje } from './types';
+
+// Initial Ejes Configuration with Colors
+export const INITIAL_EJES: Eje[] = [
+  { id: '1', nombre: "Básico (Física y Mat)", label: "BASIC", color: "cyan" },
+  { id: '2', nombre: "Transversal 1: Simulación", label: "SIM", color: "emerald" },
+  { id: '3', nombre: "Transversal 2: Medición", label: "LAB", color: "amber" },
+  { id: '4', nombre: "Materiales/Geo (a, f)", label: "MAT", color: "violet" },
+  { id: '5', nombre: "Aplicación (d, e)", label: "APP", color: "rose" },
+  { id: '6', nombre: "Diseño/Fab (b, c)", label: "FAB", color: "pink" }
+];
+
+export const INITIAL_DATA: ProgramData = {
+  "programa": "Física para la Nanociencia y Hardware",
+  "version": "4.0",
+  "asignaturas": [
+    // Semestre 1
+    { "id": "UMNG-CAL1", "nombre": "Cálculo I", "semestre": 1, "eje": "Básico (Física y Mat)", "prerrequisitos": [], "correquisitos": [] },
+    { "id": "UMNG-PROG1", "nombre": "Programación Fundamental (Python)", "semestre": 1, "eje": "Transversal 1: Simulación", "prerrequisitos": [], "correquisitos": [] },
+    { "id": "UMNG-LAB1", "nombre": "Lab. Física I (Mecánica)", "semestre": 1, "eje": "Transversal 2: Medición", "prerrequisitos": [], "correquisitos": [] },
+    { "id": "UMNG-QUIM1", "nombre": "Química General", "semestre": 1, "eje": "Materiales/Geo (a, f)", "prerrequisitos": [], "correquisitos": [] },
+    { "id": "UMNG-INTRO", "nombre": "Introducción a la Física Aplicada", "semestre": 1, "eje": "Aplicación (d, e)", "prerrequisitos": [], "correquisitos": [] },
+    
+    // Semestre 2
+    { "id": "UMNG-CAL2", "nombre": "Cálculo II", "semestre": 2, "eje": "Básico (Física y Mat)", "prerrequisitos": ["UMNG-CAL1"], "correquisitos": ["UMNG-ALIN"] },
+    { "id": "UMNG-ALIN", "nombre": "Álgebra Lineal", "semestre": 2, "eje": "Básico (Física y Mat)", "prerrequisitos": ["UMNG-CAL1"], "correquisitos": ["UMNG-CAL2"] },
+    { "id": "UMNG-PCOM", "nombre": "Métodos Computacionales", "semestre": 2, "eje": "Transversal 1: Simulación", "prerrequisitos": ["UMNG-PROG1"], "correquisitos": [] },
+    { "id": "UMNG-LAB2", "nombre": "Lab. Física II (Ondas, Óptica)", "semestre": 2, "eje": "Transversal 2: Medición", "prerrequisitos": ["UMNG-LAB1"], "correquisitos": [] },
+    { "id": "UMNG-FIS1", "nombre": "Física Mecánica", "semestre": 2, "eje": "Materiales/Geo (a, f)", "prerrequisitos": ["UMNG-CAL1", "UMNG-LAB1"], "correquisitos": ["UMNG-CAL2"] },
+    
+    // Semestre 3
+    { "id": "UMNG-CAL3", "nombre": "Cálculo III", "semestre": 3, "eje": "Básico (Física y Mat)", "prerrequisitos": ["UMNG-CAL2"], "correquisitos": [] },
+    { "id": "UMNG-SIM", "nombre": "Simulación de Sistemas Físicos", "semestre": 3, "eje": "Transversal 1: Simulación", "prerrequisitos": ["UMNG-PCOM", "UMNG-CAL2"], "correquisitos": [] },
+    { "id": "UMNG-LAB3", "nombre": "Lab. Física III (EM, Análoga)", "semestre": 3, "eje": "Transversal 2: Medición", "prerrequisitos": ["UMNG-LAB2"], "correquisitos": ["UMNG-FIS2"] },
+    { "id": "UMNG-FIS2", "nombre": "Física Ondas y EM", "semestre": 3, "eje": "Materiales/Geo (a, f)", "prerrequisitos": ["UMNG-FIS1", "UMNG-CAL2"], "correquisitos": ["UMNG-CAL3"] },
+    { "id": "UMNG-GEO", "nombre": "Geología de Recursos", "semestre": 3, "eje": "Aplicación (d, e)", "prerrequisitos": ["UMNG-QUIM1"], "correquisitos": [] },
+    
+    // Semestre 4
+    { "id": "UMNG-ECCDIF", "nombre": "Ecuaciones Diferenciales", "semestre": 4, "eje": "Básico (Física y Mat)", "prerrequisitos": ["UMNG-CAL3", "UMNG-ALIN"], "correquisitos": [] },
+    { "id": "UMNG-FISCOM", "nombre": "Física Computacional (Estadística)", "semestre": 4, "eje": "Transversal 1: Simulación", "prerrequisitos": ["UMNG-SIM"], "correquisitos": [] },
+    { "id": "UMNG-LABM", "nombre": "Lab. Física Moderna", "semestre": 4, "eje": "Transversal 2: Medición", "prerrequisitos": ["UMNG-LAB3"], "correquisitos": ["UMNG-MOD"] },
+    { "id": "UMNG-TERMO", "nombre": "Termodinámica y F. Estadística", "semestre": 4, "eje": "Materiales/Geo (a, f)", "prerrequisitos": ["UMNG-FIS1", "UMNG-CAL3"], "correquisitos": [] },
+    { "id": "UMNG-MOD", "nombre": "Física Moderna y Cuántica", "semestre": 4, "eje": "Básico (Física y Mat)", "prerrequisitos": ["UMNG-FIS2", "UMNG-ECCDIF"], "correquisitos": ["UMNG-LABM"] },
+    
+    // Semestre 5
+    { "id": "UMNG-PHV", "nombre": "Programación de Hardware (Verilog)", "semestre": 5, "eje": "Transversal 1: Simulación", "prerrequisitos": ["UMNG-PCOM"], "correquisitos": [] },
+    { "id": "UMNG-LED", "nombre": "Lab. Electrónica Digital", "semestre": 5, "eje": "Transversal 2: Medición", "prerrequisitos": ["UMNG-LAB3"], "correquisitos": ["UMNG-PHV"] },
+    { "id": "UMNG-FES1", "nombre": "Física Estado Sólido I", "semestre": 5, "eje": "Materiales/Geo (a, f)", "prerrequisitos": ["UMNG-MOD", "UMNG-TERMO"], "correquisitos": [] },
+    { "id": "UMNG-OPT1", "nombre": "Optativa 1: Comunicación Estratégica de la Ciencia", "semestre": 5, "eje": "Aplicación (d, e)", "prerrequisitos": [], "correquisitos": [] }, 
+    
+    // Semestre 6
+    { "id": "UMNG-FES2", "nombre": "(Énfasis 1) Física Estado Sólido II", "semestre": 6, "eje": "Materiales/Geo (a, f)", "prerrequisitos": ["UMNG-FES1"], "correquisitos": [] },
+    { "id": "UMNG-FISDIS", "nombre": "(Énfasis 2) Física de Dispositivos", "semestre": 6, "eje": "Diseño/Fab (b, c)", "prerrequisitos": ["UMNG-FES1"], "correquisitos": [] },
+    { "id": "UMNG-QUIMAT", "nombre": "Química de Materiales", "semestre": 6, "eje": "Aplicación (d, e)", "prerrequisitos": ["UMNG-QUIM1"], "correquisitos": [] },
+    { "id": "UMNG-OPT2", "nombre": "Optativa 2: Didáctica y Pedagogía de la Física", "semestre": 6, "eje": "Aplicación (d, e)", "prerrequisitos": [], "correquisitos": [] },
+    
+    // Semestre 7
+    { "id": "UMNG-CARAC", "nombre": "(Énfasis 1) Lab. Técnicas de Caracterización (SEM)", "semestre": 7, "eje": "Transversal 2: Medición", "prerrequisitos": ["UMNG-FES1", "UMNG-LABM"], "correquisitos": [] },
+    { "id": "UMNG-VLSI", "nombre": "(Énfasis 2) Lab. Diseño VLSI", "semestre": 7, "eje": "Transversal 1: Simulación", "prerrequisitos": ["UMNG-PHV", "UMNG-LED"], "correquisitos": [] },
+    { "id": "UMNG-SENS", "nombre": "Sensores y Actuadores", "semestre": 7, "eje": "Aplicación (d, e)", "prerrequisitos": ["UMNG-FISDIS", "UMNG-LED"], "correquisitos": [] },
+    
+    // Semestre 8
+    { "id": "UMNG-GEOAP", "nombre": "(Énfasis 1) Geofísica Aplicada", "semestre": 8, "eje": "Materiales/Geo (a, f)", "prerrequisitos": ["UMNG-GEO", "UMNG-SENS"], "correquisitos": [] },
+    { "id": "UMNG-MINFAB", "nombre": "(Énfasis 2) Lab. Microfabricación (Minimal Fab)", "semestre": 8, "eje": "Transversal 2: Medición", "prerrequisitos": ["UMNG-VLSI", "UMNG-CARAC"], "correquisitos": [] },
+    { "id": "UMNG-BIOFIS", "nombre": "Biofísica y F. Médica", "semestre": 8, "eje": "Aplicación (d, e)", "prerrequisitos": ["UMNG-SENS", "UMNG-MOD"], "correquisitos": [] },
+    
+    // Semestre 9
+    { "id": "UMNG-MATLAB", "nombre": "(Énfasis 1) Lab. Crecimiento de Cristales / Proc. REE", "semestre": 9, "eje": "Materiales/Geo (a, f)", "prerrequisitos": ["UMNG-CARAC", "UMNG-QUIMAT"], "correquisitos": [] },
+    { "id": "UMNG-GPROY", "nombre": "Gestión Proyectos NewTech", "semestre": 9, "eje": "Aplicación (d, e)", "prerrequisitos": [], "correquisitos": [] },
+    
+    // Semestre 10
+    { "id": "UMNG-MEMS", "nombre": "(Énfasis 2) MEMS y Microfluídica", "semestre": 10, "eje": "Diseño/Fab (b, c)", "prerrequisitos": ["UMNG-MINFAB"], "correquisitos": ["UMNG-CAP"] },
+    { "id": "UMNG-CAP", "nombre": "Proyecto Capstone: Chip de Autor", "semestre": 10, "eje": "Aplicación (d, e)", "prerrequisitos": ["UMNG-GPROY", "UMNG-MINFAB", "UMNG-MATLAB"], "correquisitos": [] }
+  ]
+};
+
+// Default details for subjects that don't have explicit overrides
+export const DEFAULT_DETAILS = {
+  justificacion: "No hay una justificación detallada disponible para esta asignatura.",
+  syllabus: []
+};
+
+// Additional details map
+export const SUBJECT_DETAILS_MAP: Record<string, any> = {
+  "UMNG-OPT1": {
+      "title": "A. Optativa 1: Comunicación Estratégica de la Ciencia Aplicada",
+      "justificacion": "El egresado de este programa debe ser capaz de comunicar información científica compleja a audiencias diversas 9: a sus pares (artículos), a agencias de financiación (propuestas), a inversionistas de capital de riesgo (pitch de startup) y al público general (divulgación).8 Esta asignatura es un habilitador directo del modelo de emprendimiento (Línea 'd').",
+      "syllabus": [
+          { "unidad": "1. Fundamentos", "temas": "Identificación de audiencia, mensaje y propósito. Ética en la comunicación. Estructura del argumento científico.", "objetivos": "Reconocer y adaptarse a las necesidades de audiencias diversas (científicas y no científicas).", "fuentes": "44" },
+          { "unidad": "2. Comunicación Escrita", "temas": "Redacción de abstracts. Estructura de artículo científico (estilo IEEE/APS). Redacción de propuestas de financiación (estilo MinCiencias/NSF).", "objetivos": "Producir documentos técnicos claros, concisos y persuasivos para la publicación y la financiación.", "fuentes": "8" },
+          { "unidad": "3. Comunicación Oral", "temas": "Diseño de diapositivas efectivas (evitando \"muerte por PowerPoint\"). Defensa de póster científico. \"El pitch de 3 minutos\" para emprendimiento.", "objetivos": "Presentar investigación de forma oral, visual y profesional en formatos de conferencia y de negocios.", "fuentes": "8" },
+          { "unidad": "4. Comunicación Pública", "temas": "Traducción de la jerga científica. Redacción de artículos de divulgación (estilo popular media). Uso de medios digitales y redes sociales para la ciencia.", "objetivos": "Destilar temas complejos en lenguaje claro y preciso para el público general, combatiendo la desinformación.", "fuentes": "9" }
+      ]
+  },
+  "UMNG-OPT2": {
+      "title": "B. Optativa 2: Didáctica y Pedagogía de la Física Aplicada",
+      "justificacion": "Atiende al \"importante rubro de la profesión\" que es la enseñanza.1 Un físico aplicado debe ser capaz de transferir su conocimiento de manera efectiva, ya sea en un entorno académico (docencia), corporativo (capacitación) o público (museos). Esta asignatura forma al estudiante en cómo enseñar conceptos complejos de física.",
+      "syllabus": [
+          { "unidad": "1. Fundamentos del Aprendizaje", "temas": "Teorías del aprendizaje en ciencias. El problema de las \"concepciones alternativas\" (ej. en cuántica, EM).", "objetivos": "Identificar y abordar las dificultades conceptuales comunes en el aprendizaje de la física.", "fuentes": "10" },
+          { "unidad": "2. Diseño de Entornos", "temas": "Diseño de unidades didácticas innovadoras. Desarrollo de prácticas de laboratorio (físicas y virtuales) como herramienta pedagógica.", "objetivos": "Crear entornos de aprendizaje significativos que conecten la teoría con la aplicación.", "fuentes": "10" },
+          { "unidad": "3. Metodologías de Enseñanza", "temas": "Aprendizaje Basado en Problemas (PBL). Instrucción por pares (Peer Instruction). Aprendizaje Basado en Proyectos. Integración de la investigación en el aula.", "objetivos": "Aplicar metodologías activas centradas en el estudiante para la enseñanza de la física aplicada.", "fuentes": "11" },
+          { "unidad": "4. Evaluación de Competencias", "temas": "Evaluación formativa vs. sumativa. Diseño de rúbricas para laboratorios y proyectos. Evaluación de habilidades de resolución de problemas.", "objetivos": "Diseñar e implementar estrategias de evaluación auténtica que midan la competencia científica.", "fuentes": "52" }
+      ]
+  }
+};
