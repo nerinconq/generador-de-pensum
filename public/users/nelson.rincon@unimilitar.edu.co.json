@@ -108,7 +108,7 @@
     },
     {
       "id": "UMNG-LAB2",
-      "nombre": "Lab. Física II (Ondas, ÁÂÁ¢â‚¬Å“ptica)",
+      "nombre": "Lab. F��sica II (Ondas, �ptica)",
       "semestre": 2,
       "eje": "Transversal 2: Medici�n",
       "prerrequisitos": [
@@ -116,13 +116,13 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-FIS1",
-      "nombre": "Física Mecánica",
+      "nombre": "F�sica Mec�nica",
       "semestre": 2,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -133,7 +133,7 @@
         "UMNG-CAL2"
       ],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -201,7 +201,7 @@
     },
     {
       "id": "UMNG-GEO",
-      "nombre": "Geología de Recursos",
+      "nombre": "Geolog��a de Recursos",
       "semestre": 3,
       "eje": "Aplicaci�n (d, e)",
       "prerrequisitos": [
@@ -209,7 +209,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:30:24.967Z"
+  "lastUpdated": "2025-12-09T22:31:56.616Z"
 }
