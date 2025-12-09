@@ -1,4 +1,4 @@
-# Gestor de Pensum de Carrera
+# Pensum Tech
 
 Editor de currículos académicos para diseñar y gestionar programas de estudio universitarios.
 
