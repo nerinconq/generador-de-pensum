@@ -139,7 +139,7 @@
     },
     {
       "id": "UMNG-CAL3",
-      "nombre": "Cálculo III",
+      "nombre": "C�lculo III",
       "semestre": 3,
       "eje": "B�sico (F�sica y Mat)",
       "prerrequisitos": [
@@ -147,7 +147,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -224,7 +224,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -292,7 +292,7 @@
     },
     {
       "id": "UMNG-PHV",
-      "nombre": "Programación de Hardware (Verilog)",
+      "nombre": "Programaci�n de Hardware (Verilog)",
       "semestre": 5,
       "eje": "Transversal 1: Simulaci�n",
       "prerrequisitos": [
@@ -300,7 +300,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -375,7 +375,7 @@
     },
     {
       "id": "UMNG-FES2",
-      "nombre": "(ÁÂÁ¢â‚¬Â°nfasis 1) Física Estado Sólido II",
+      "nombre": "(�nfasis 1) F�sica Estado S�lido II",
       "semestre": 6,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -383,7 +383,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T21:59:33.224Z"
+  "lastUpdated": "2025-12-09T22:01:04.740Z"
 }
