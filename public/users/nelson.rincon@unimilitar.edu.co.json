@@ -78,7 +78,7 @@
     },
     {
       "id": "UMNG-ALIN",
-      "nombre": "¡Å¬Ålgebra Lineal",
+      "nombre": "¡lgebra Lineal",
       "semestre": 2,
       "eje": "B·sico (FÌsica y Mat)",
       "prerrequisitos": [
@@ -88,7 +88,7 @@
         "UMNG-CAL2"
       ],
       "details": {
-        "justificacion": "No hay una justificaci√É¬≥n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaciÛn detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -654,5 +654,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 10,
-  "lastUpdated": "2025-12-09T18:32:44.932Z"
+  "lastUpdated": "2025-12-09T18:33:07.988Z"
 }
