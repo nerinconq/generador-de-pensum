@@ -1,4 +1,5 @@
 
+
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
@@ -10,6 +11,10 @@ import { EditSubjectModal } from './components/EditSubjectModal';
 import { EjeManagerModal } from './components/EjeManagerModal';
 import { WelcomeScreen } from './components/WelcomeScreen';
 import { saveUserDataToGitHub, loadUserDataFromGitHub } from './github-api';
+import { fixLocalStorageEncoding } from './encoding-fix';
+
+// Fix any encoding issues in localStorage before app initializes
+fixLocalStorageEncoding();
 
 export default function App() {
   // --- State Initialization (with LocalStorage) ---
