@@ -260,7 +260,7 @@
     },
     {
       "id": "UMNG-TERMO",
-      "nombre": "Termodinámica y F. Estadística",
+      "nombre": "Termodin�mica y F. Estad��stica",
       "semestre": 4,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -269,7 +269,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:26:28.781Z"
+  "lastUpdated": "2025-12-09T22:27:40.469Z"
 }
