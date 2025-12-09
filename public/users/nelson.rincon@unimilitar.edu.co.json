@@ -601,6 +601,18 @@
         "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
         "syllabus": []
       }
+    },
+    {
+      "id": "NEW-1765312535853",
+      "nombre": "Nueva Asignatura",
+      "semestre": 11,
+      "eje": "Básico (Física y Mat)",
+      "prerrequisitos": [],
+      "correquisitos": [],
+      "details": {
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
+        "syllabus": []
+      }
     }
   ],
   "ejes": [
@@ -653,6 +665,6 @@
     "university": "Universidad Militar Nueva Granada",
     "email": "nelson.rincon@unimilitar.edu.co"
   },
-  "totalSemesters": 10,
-  "lastUpdated": "2025-12-09T19:58:50.922Z"
+  "totalSemesters": 11,
+  "lastUpdated": "2025-12-09T20:35:42.955Z"
 }
