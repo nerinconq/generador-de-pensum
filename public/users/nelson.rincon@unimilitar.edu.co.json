@@ -2,13 +2,13 @@
   "subjects": [
     {
       "id": "UMNG-CAL1",
-      "nombre": "C谩lculo I",
+      "nombre": "C醠culo I",
       "semestre": 1,
-      "eje": "B谩sico (F铆sica y Mat)",
+      "eje": "B醩ico (F韘ica y Mat)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci脙茠脝鈥櫭冣�毭偮硁 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -16,7 +16,7 @@
       "id": "UMNG-PROG1",
       "nombre": "Programaci贸n Fundamental (Python)",
       "semestre": 1,
-      "eje": "Transversal 1: Simulaci贸n",
+      "eje": "Transversal 1: Simulaci髇",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -28,7 +28,7 @@
       "id": "UMNG-LAB1",
       "nombre": "Lab. F铆sica I (Mec谩nica)",
       "semestre": 1,
-      "eje": "Transversal 2: Medici贸n",
+      "eje": "Transversal 2: Medici髇",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -64,7 +64,7 @@
       "id": "UMNG-CAL2",
       "nombre": "C谩lculo II",
       "semestre": 2,
-      "eje": "B谩sico (F铆sica y Mat)",
+      "eje": "B醩ico (F韘ica y Mat)",
       "prerrequisitos": [
         "UMNG-CAL1"
       ],
@@ -80,7 +80,7 @@
       "id": "UMNG-ALIN",
       "nombre": "脕聛脗聛脕鈥毭偮乴gebra Lineal",
       "semestre": 2,
-      "eje": "B谩sico (F铆sica y Mat)",
+      "eje": "B醩ico (F韘ica y Mat)",
       "prerrequisitos": [
         "UMNG-CAL1"
       ],
@@ -96,7 +96,7 @@
       "id": "UMNG-PCOM",
       "nombre": "M茅todos Computacionales",
       "semestre": 2,
-      "eje": "Transversal 1: Simulaci贸n",
+      "eje": "Transversal 1: Simulaci髇",
       "prerrequisitos": [
         "UMNG-PROG1"
       ],
@@ -110,7 +110,7 @@
       "id": "UMNG-LAB2",
       "nombre": "Lab. F铆sica II (Ondas, 脕聛脗聛脕垄芒鈥毬呪�減tica)",
       "semestre": 2,
-      "eje": "Transversal 2: Medici贸n",
+      "eje": "Transversal 2: Medici髇",
       "prerrequisitos": [
         "UMNG-LAB1"
       ],
@@ -141,7 +141,7 @@
       "id": "UMNG-CAL3",
       "nombre": "C谩lculo III",
       "semestre": 3,
-      "eje": "B谩sico (F铆sica y Mat)",
+      "eje": "B醩ico (F韘ica y Mat)",
       "prerrequisitos": [
         "UMNG-CAL2"
       ],
@@ -155,7 +155,7 @@
       "id": "UMNG-SIM",
       "nombre": "Simulaci贸n de Sistemas F铆sicos",
       "semestre": 3,
-      "eje": "Transversal 1: Simulaci贸n",
+      "eje": "Transversal 1: Simulaci髇",
       "prerrequisitos": [
         "UMNG-PCOM",
         "UMNG-CAL2"
@@ -170,7 +170,7 @@
       "id": "UMNG-LAB3",
       "nombre": "Lab. F铆sica III (EM, An谩loga)",
       "semestre": 3,
-      "eje": "Transversal 2: Medici贸n",
+      "eje": "Transversal 2: Medici髇",
       "prerrequisitos": [
         "UMNG-LAB2"
       ],
@@ -217,7 +217,7 @@
       "id": "UMNG-ECCDIF",
       "nombre": "Ecuaciones Diferenciales",
       "semestre": 4,
-      "eje": "B谩sico (F铆sica y Mat)",
+      "eje": "B醩ico (F韘ica y Mat)",
       "prerrequisitos": [
         "UMNG-CAL3",
         "UMNG-ALIN"
@@ -232,7 +232,7 @@
       "id": "UMNG-FISCOM",
       "nombre": "F铆sica Computacional (Estad铆stica)",
       "semestre": 4,
-      "eje": "Transversal 1: Simulaci贸n",
+      "eje": "Transversal 1: Simulaci髇",
       "prerrequisitos": [
         "UMNG-SIM"
       ],
@@ -246,7 +246,7 @@
       "id": "UMNG-LABM",
       "nombre": "Lab. F铆sica Moderna",
       "semestre": 4,
-      "eje": "Transversal 2: Medici贸n",
+      "eje": "Transversal 2: Medici髇",
       "prerrequisitos": [
         "UMNG-LAB3"
       ],
@@ -277,7 +277,7 @@
       "id": "UMNG-MOD",
       "nombre": "F铆sica Moderna y Cu谩ntica",
       "semestre": 4,
-      "eje": "B谩sico (F铆sica y Mat)",
+      "eje": "B醩ico (F韘ica y Mat)",
       "prerrequisitos": [
         "UMNG-FIS2",
         "UMNG-ECCDIF"
@@ -294,7 +294,7 @@
       "id": "UMNG-PHV",
       "nombre": "Programaci贸n de Hardware (Verilog)",
       "semestre": 5,
-      "eje": "Transversal 1: Simulaci贸n",
+      "eje": "Transversal 1: Simulaci髇",
       "prerrequisitos": [
         "UMNG-PCOM"
       ],
@@ -308,7 +308,7 @@
       "id": "UMNG-LED",
       "nombre": "Lab. Electr贸nica Digital",
       "semestre": 5,
-      "eje": "Transversal 2: Medici贸n",
+      "eje": "Transversal 2: Medici髇",
       "prerrequisitos": [
         "UMNG-LAB3"
       ],
@@ -457,7 +457,7 @@
       "id": "UMNG-CARAC",
       "nombre": "(脕聛脗聛脕垄芒鈥毬偮皀fasis 1) Lab. T茅cnicas de Caracterizaci贸n (SEM)",
       "semestre": 7,
-      "eje": "Transversal 2: Medici贸n",
+      "eje": "Transversal 2: Medici髇",
       "prerrequisitos": [
         "UMNG-FES1",
         "UMNG-LABM"
@@ -472,7 +472,7 @@
       "id": "UMNG-VLSI",
       "nombre": "(脕聛脗聛脕垄芒鈥毬偮皀fasis 2) Lab. Dise帽o VLSI",
       "semestre": 7,
-      "eje": "Transversal 1: Simulaci贸n",
+      "eje": "Transversal 1: Simulaci髇",
       "prerrequisitos": [
         "UMNG-PHV",
         "UMNG-LED"
@@ -517,7 +517,7 @@
       "id": "UMNG-MINFAB",
       "nombre": "(脕聛脗聛脕垄芒鈥毬偮皀fasis 2) Lab. Microfabricaci贸n (Minimal Fab)",
       "semestre": 8,
-      "eje": "Transversal 2: Medici贸n",
+      "eje": "Transversal 2: Medici髇",
       "prerrequisitos": [
         "UMNG-VLSI",
         "UMNG-CARAC"
@@ -606,7 +606,7 @@
       "id": "NEW-1765312535853",
       "nombre": "Nueva Asignatura",
       "semestre": 11,
-      "eje": "B谩sico (F铆sica y Mat)",
+      "eje": "B醩ico (F韘ica y Mat)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -618,19 +618,19 @@
   "ejes": [
     {
       "id": "1",
-      "nombre": "B谩sico (F铆sica y Mat)",
+      "nombre": "B醩ico (F韘ica y Mat)",
       "label": "BASIC",
       "color": "cyan"
     },
     {
       "id": "2",
-      "nombre": "Transversal 1: Simulaci贸n",
+      "nombre": "Transversal 1: Simulaci髇",
       "label": "SIM",
       "color": "emerald"
     },
     {
       "id": "3",
-      "nombre": "Transversal 2: Medici贸n",
+      "nombre": "Transversal 2: Medici髇",
       "label": "LAB",
       "color": "amber"
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T20:35:42.955Z"
+  "lastUpdated": "2025-12-09T21:58:26.707Z"
 }
