@@ -389,7 +389,7 @@
     },
     {
       "id": "UMNG-FISDIS",
-      "nombre": "(ÁÂÁ¢â‚¬Â°nfasis 2) Física de Dispositivos",
+      "nombre": "(�nfasis 2) F�sica de Dispositivos",
       "semestre": 6,
       "eje": "Dise�o/Fab (b, c)",
       "prerrequisitos": [
@@ -397,7 +397,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -470,7 +470,7 @@
     },
     {
       "id": "UMNG-VLSI",
-      "nombre": "(ÁÂÁ¢â‚¬Â°nfasis 2) Lab. Diseño VLSI",
+      "nombre": "(�nfasis 2) Lab. Dise�o VLSI",
       "semestre": 7,
       "eje": "Transversal 1: Simulaci�n",
       "prerrequisitos": [
@@ -479,7 +479,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -494,7 +494,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -530,7 +530,7 @@
     },
     {
       "id": "UMNG-BIOFIS",
-      "nombre": "Biofísica y F. Médica",
+      "nombre": "Biof��sica y F. M�dica",
       "semestre": 8,
       "eje": "Aplicaci�n (d, e)",
       "prerrequisitos": [
@@ -539,7 +539,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:04:25.117Z"
+  "lastUpdated": "2025-12-09T22:06:01.517Z"
 }
