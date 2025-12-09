@@ -120,6 +120,104 @@ fix: Corregir botón SALIR, auto-apertura de PDF y feedback de JSON
 - Mejorar feedback visual para el usuario
 ```
 
+### Commit 3: `75a285a`
+```
+docs: Agregar documentación completa del proyecto
+
+- CHAT_DESARROLLO_PROYECTO_INICIO.md: Historial completo de desarrollo
+- README.md: Documentación profesional para GitHub
+- SETUP_GITHUB_FIREBASE.md: Guía paso a paso para GitHub y Firebase
+- Preparación para despliegue y almacenamiento multi-usuario
+```
+
+### Commit 4: `761a147`
+```
+feat: Implement GitHub as database storage (Option 2)
+
+- Add github-api.ts with save/load functions
+- Create public/users/ directory for user data files
+- Update WelcomeScreen with GitHub token input
+- Modify App.tsx with auto-save to GitHub (5s debounce)
+- Add sync status state management
+- Load existing user data from GitHub on login
+- Fallback to localStorage when no token provided
+```
+
+### Commit 5: `aaa7ff7`
+```
+docs: Add GitHub storage implementation guide
+
+- GITHUB_STORAGE_GUIDE.md: Guía completa de uso
+- Instrucciones para generar token
+- Detalles técnicos de implementación
+- Troubleshooting y mejores prácticas
+```
+
+## Implementación de GitHub Storage (Opción 2)
+
+### 7. Almacenamiento Multi-Usuario con GitHub
+**Fecha**: 9 de diciembre de 2024
+
+**Problema**: Necesidad de almacenamiento compartido para múltiples usuarios sin configurar un backend externo.
+
+**Solución Implementada**: GitHub como "Base de Datos"
+- Usar el repositorio de GitHub para almacenar archivos JSON de usuarios
+- Cada usuario tiene su archivo: `public/users/email@domain.json`
+- API de GitHub para leer/escribir archivos
+- Gratis, con versionado automático
+
+**Archivos Creados**:
+- `github-api.ts`: Módulo de integración con GitHub API
+  - `saveUserDataToGitHub()`: Guardar datos del usuario
+  - `loadUserDataFromGitHub()`: Cargar datos existentes
+  - `checkUserDataExists()`: Verificar si existe archivo
+  - `validateGitHubToken()`: Validar token
+- `public/users/README.md`: Documentación de estructura
+- `public/users/.gitkeep`: Mantener directorio en git
+- `GITHUB_STORAGE_GUIDE.md`: Guía completa de uso
+
+**Archivos Modificados**:
+- `components/WelcomeScreen.tsx`:
+  - Checkbox "Usar GitHub Storage"
+  - Campo de GitHub Personal Access Token (password)
+  - Link directo para generar token con scopes correctos
+  - Validación de token requerido si GitHub está habilitado
+- `App.tsx`:
+  - Estado `githubToken` y `syncStatus`
+  - `handleStart` ahora es async y acepta token opcional
+  - Auto-carga de datos desde GitHub si existe
+  - Auto-guardado con debounce de 5 segundos
+  - Indicador de estado de sincronización (pendiente en UI)
+
+**Características**:
+- ✅ **Auto-save**: Guarda automáticamente cada 5 segundos después de cambios
+- ✅ **Auto-load**: Carga datos existentes del usuario al iniciar sesión
+- ✅ **Fallback**: Usa localStorage si no hay token de GitHub
+- ✅ **Versionado**: Historial completo de cambios en GitHub
+- ✅ **Gratis**: Sin límites de uso ni costos
+- ✅ **Transparente**: Todos los datos visibles en el repositorio
+- ⚠️ **Público**: Los datos son visibles públicamente en el repo
+
+**Flujo de Uso**:
+1. Usuario genera GitHub Personal Access Token (scope: `repo`)
+2. En WelcomeScreen, marca "Usar GitHub Storage" y pega token
+3. App intenta cargar datos existentes de `public/users/{email}.json`
+4. Si existen, los carga; si no, usa datos por defecto
+5. Cada cambio activa auto-guardado (debounced 5s)
+6. Token se guarda en localStorage para próximas sesiones
+
+**Ventajas sobre Firebase**:
+- No requiere configuración externa
+- Usa infraestructura existente (GitHub)
+- Versionado automático de cambios
+- Sin límites de uso
+- Más simple de implementar
+
+**Limitaciones**:
+- Datos públicos (no para información sensible)
+- Requiere que usuario genere su propio token
+- Rate limit de GitHub API (5000 req/hora autenticado)
+
 ## Lecciones Aprendidas
 
 ### 1. Debugging de Diálogos del Navegador
@@ -137,25 +235,61 @@ fix: Corregir botón SALIR, auto-apertura de PDF y feedback de JSON
 - Auto-apertura de archivos generados mejora UX
 - Validación de formularios debe ser clara y específica
 
-## Próximos Pasos Planeados
+### 4. GitHub como Backend
+- GitHub API es sorprendentemente útil para almacenamiento simple
+- Debouncing es esencial para evitar rate limits
+- Base64 encoding/decoding para contenido de archivos
+- SHA requerido para actualizar archivos existentes
 
-### 1. Subir a GitHub
-- Crear repositorio en GitHub
-- Conectar repositorio local
-- Push de commits existentes
+## Estructura Actualizada del Proyecto
+```
+gestor-pensum-carrera/
+├── components/
+│   ├── EditSubjectModal.tsx
+│   ├── EjeManagerModal.tsx
+│   ├── SubjectCard.tsx
+│   ├── ViewSubjectModal.tsx
+│   └── WelcomeScreen.tsx
+├── public/
+│   └── users/
+│       ├── .gitkeep
+│       ├── README.md
+│       └── [user@email.json] (generado automáticamente)
+├── App.tsx
+├── github-api.ts (NUEVO)
+├── types.ts
+├── constants.ts
+├── index.tsx
+├── package.json
+├── vite.config.ts
+├── README.md
+├── CHAT_DESARROLLO_PROYECTO_INICIO.md
+├── SETUP_GITHUB_FIREBASE.md
+└── GITHUB_STORAGE_GUIDE.md (NUEVO)
+```
 
-### 2. Implementar Firebase para Multi-Usuario
-- Configurar Firebase Realtime Database
-- Implementar autenticación con email
-- Sincronización automática de datos
-- Permitir que múltiples usuarios guarden y recuperen su progreso
+## Próximos Pasos Sugeridos
 
-### 3. Mejoras Futuras Sugeridas
-- Sistema de permisos (admin, editor, viewer)
-- Historial de cambios con git-like diff
-- Exportar a diferentes formatos (Excel, CSV)
-- Validación de dependencias circulares en prerrequisitos
-- Modo colaborativo en tiempo real
+### 1. Completar UI de Sync Status
+- Agregar indicador visual en header
+- Mostrar "✓ Synced", "⟳ Saving...", "⚠ Error"
+- Código disponible en `GITHUB_STORAGE_GUIDE.md`
+
+### 2. Mejoras de Seguridad
+- Validar token antes de guardar
+- Manejar errores de API más gracefully
+- Agregar retry logic para fallos de red
+
+### 3. Funcionalidades Adicionales
+- Historial de versiones (usando commits de GitHub)
+- Comparar versiones (diff)
+- Restaurar versión anterior
+- Exportar historial completo
+
+### 4. Optimizaciones
+- Comprimir JSON antes de guardar
+- Cache de datos en IndexedDB
+- Sincronización offline (service worker)
 
 ## Notas Técnicas
 
@@ -183,11 +317,34 @@ Se usa localStorage con claves específicas:
 - `pensum_started`: Flag de sesión activa
 - `pensum_semesters`: Número total de semestres
 - `pensum_theme`: Tema visual (dark/light)
+- `github_token`: Token de GitHub (NUEVO)
+
+### GitHub API Integration
+```typescript
+// Guardar datos
+const response = await fetch(
+  `https://api.github.com/repos/owner/repo/contents/public/users/${email}.json`,
+  {
+    method: 'PUT',
+    headers: {
+      'Authorization': `token ${githubToken}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      message: `Update pensum data for ${email}`,
+      content: btoa(JSON.stringify(data)),
+      sha: existingSHA // Requerido para updates
+    })
+  }
+);
+```
 
 ## Contacto y Mantenimiento
 Este proyecto fue desarrollado para la Universidad Militar Nueva Granada (UMNG) como herramienta para diseñar y gestionar currículos académicos de nuevas carreras.
 
+**Repositorio**: https://github.com/nerinconq/generador-de-pensum
+
 ---
-**Generado**: 8 de diciembre de 2024
-**Versión del Proyecto**: 1.0
-**Estado**: Funcional y listo para despliegue
+**Generado**: 8-9 de diciembre de 2024
+**Versión del Proyecto**: 1.1
+**Estado**: Funcional con almacenamiento multi-usuario
