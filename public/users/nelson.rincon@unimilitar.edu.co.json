@@ -2,9 +2,9 @@
   "subjects": [
     {
       "id": "UMNG-CAL1",
-      "nombre": "CÃ¡lculo I",
+      "nombre": "Cálculo I",
       "semestre": 1,
-      "eje": "BÃ¡sico (FÃ­sica y Mat)",
+      "eje": "Básico (Física y Mat)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -14,9 +14,9 @@
     },
     {
       "id": "UMNG-PROG1",
-      "nombre": "ProgramaciÃ³n Fundamental (Python)",
+      "nombre": "Programación Fundamental (Python)",
       "semestre": 1,
-      "eje": "Transversal 1: SimulaciÃ³n",
+      "eje": "Transversal 1: Simulación",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -26,9 +26,9 @@
     },
     {
       "id": "UMNG-LAB1",
-      "nombre": "Lab. FÃ­sica I (MecÃ¡nica)",
+      "nombre": "Lab. Física I (Mecánica)",
       "semestre": 1,
-      "eje": "Transversal 2: MediciÃ³n",
+      "eje": "Transversal 2: Medición",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -38,7 +38,7 @@
     },
     {
       "id": "UMNG-QUIM1",
-      "nombre": "QuÃ­mica General",
+      "nombre": "Química General",
       "semestre": 1,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [],
@@ -50,9 +50,9 @@
     },
     {
       "id": "UMNG-INTRO",
-      "nombre": "IntroducciÃ³n a la FÃ­sica Aplicada",
+      "nombre": "Introducción a la Física Aplicada",
       "semestre": 1,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -62,9 +62,9 @@
     },
     {
       "id": "UMNG-CAL2",
-      "nombre": "CÃ¡lculo II",
+      "nombre": "Cálculo II",
       "semestre": 2,
-      "eje": "BÃ¡sico (FÃ­sica y Mat)",
+      "eje": "Básico (Física y Mat)",
       "prerrequisitos": [
         "UMNG-CAL1"
       ],
@@ -78,9 +78,9 @@
     },
     {
       "id": "UMNG-ALIN",
-      "nombre": "Ãlgebra Lineal",
+      "nombre": "Álgebra Lineal",
       "semestre": 2,
-      "eje": "BÃ¡sico (FÃ­sica y Mat)",
+      "eje": "Básico (Física y Mat)",
       "prerrequisitos": [
         "UMNG-CAL1"
       ],
@@ -94,9 +94,9 @@
     },
     {
       "id": "UMNG-PCOM",
-      "nombre": "MÃ©todos Computacionales",
+      "nombre": "Métodos Computacionales",
       "semestre": 2,
-      "eje": "Transversal 1: SimulaciÃ³n",
+      "eje": "Transversal 1: Simulación",
       "prerrequisitos": [
         "UMNG-PROG1"
       ],
@@ -108,9 +108,9 @@
     },
     {
       "id": "UMNG-LAB2",
-      "nombre": "Lab. FÃ­sica II (Ondas, Ã“ptica)",
+      "nombre": "Lab. Física II (Ondas, Á“ptica)",
       "semestre": 2,
-      "eje": "Transversal 2: MediciÃ³n",
+      "eje": "Transversal 2: Medición",
       "prerrequisitos": [
         "UMNG-LAB1"
       ],
@@ -122,7 +122,7 @@
     },
     {
       "id": "UMNG-FIS1",
-      "nombre": "FÃ­sica MecÃ¡nica",
+      "nombre": "Física Mecánica",
       "semestre": 2,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -139,9 +139,9 @@
     },
     {
       "id": "UMNG-CAL3",
-      "nombre": "CÃ¡lculo III",
+      "nombre": "Cálculo III",
       "semestre": 3,
-      "eje": "BÃ¡sico (FÃ­sica y Mat)",
+      "eje": "Básico (Física y Mat)",
       "prerrequisitos": [
         "UMNG-CAL2"
       ],
@@ -153,9 +153,9 @@
     },
     {
       "id": "UMNG-SIM",
-      "nombre": "SimulaciÃ³n de Sistemas FÃ­sicos",
+      "nombre": "Simulación de Sistemas Físicos",
       "semestre": 3,
-      "eje": "Transversal 1: SimulaciÃ³n",
+      "eje": "Transversal 1: Simulación",
       "prerrequisitos": [
         "UMNG-PCOM",
         "UMNG-CAL2"
@@ -168,9 +168,9 @@
     },
     {
       "id": "UMNG-LAB3",
-      "nombre": "Lab. FÃ­sica III (EM, AnÃ¡loga)",
+      "nombre": "Lab. Física III (EM, Análoga)",
       "semestre": 3,
-      "eje": "Transversal 2: MediciÃ³n",
+      "eje": "Transversal 2: Medición",
       "prerrequisitos": [
         "UMNG-LAB2"
       ],
@@ -184,7 +184,7 @@
     },
     {
       "id": "UMNG-FIS2",
-      "nombre": "FÃ­sica Ondas y EM",
+      "nombre": "Física Ondas y EM",
       "semestre": 3,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -201,9 +201,9 @@
     },
     {
       "id": "UMNG-GEO",
-      "nombre": "GeologÃ­a de Recursos",
+      "nombre": "Geología de Recursos",
       "semestre": 3,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [
         "UMNG-QUIM1"
       ],
@@ -217,7 +217,7 @@
       "id": "UMNG-ECCDIF",
       "nombre": "Ecuaciones Diferenciales",
       "semestre": 4,
-      "eje": "BÃ¡sico (FÃ­sica y Mat)",
+      "eje": "Básico (Física y Mat)",
       "prerrequisitos": [
         "UMNG-CAL3",
         "UMNG-ALIN"
@@ -230,9 +230,9 @@
     },
     {
       "id": "UMNG-FISCOM",
-      "nombre": "FÃ­sica Computacional (EstadÃ­stica)",
+      "nombre": "Física Computacional (Estadística)",
       "semestre": 4,
-      "eje": "Transversal 1: SimulaciÃ³n",
+      "eje": "Transversal 1: Simulación",
       "prerrequisitos": [
         "UMNG-SIM"
       ],
@@ -244,9 +244,9 @@
     },
     {
       "id": "UMNG-LABM",
-      "nombre": "Lab. FÃ­sica Moderna",
+      "nombre": "Lab. Física Moderna",
       "semestre": 4,
-      "eje": "Transversal 2: MediciÃ³n",
+      "eje": "Transversal 2: Medición",
       "prerrequisitos": [
         "UMNG-LAB3"
       ],
@@ -260,7 +260,7 @@
     },
     {
       "id": "UMNG-TERMO",
-      "nombre": "TermodinÃ¡mica y F. EstadÃ­stica",
+      "nombre": "Termodinámica y F. Estadística",
       "semestre": 4,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -275,9 +275,9 @@
     },
     {
       "id": "UMNG-MOD",
-      "nombre": "FÃ­sica Moderna y CuÃ¡ntica",
+      "nombre": "Física Moderna y Cuántica",
       "semestre": 4,
-      "eje": "BÃ¡sico (FÃ­sica y Mat)",
+      "eje": "Básico (Física y Mat)",
       "prerrequisitos": [
         "UMNG-FIS2",
         "UMNG-ECCDIF"
@@ -292,9 +292,9 @@
     },
     {
       "id": "UMNG-PHV",
-      "nombre": "ProgramaciÃ³n de Hardware (Verilog)",
+      "nombre": "Programación de Hardware (Verilog)",
       "semestre": 5,
-      "eje": "Transversal 1: SimulaciÃ³n",
+      "eje": "Transversal 1: Simulación",
       "prerrequisitos": [
         "UMNG-PCOM"
       ],
@@ -306,9 +306,9 @@
     },
     {
       "id": "UMNG-LED",
-      "nombre": "Lab. ElectrÃ³nica Digital",
+      "nombre": "Lab. Electrónica Digital",
       "semestre": 5,
-      "eje": "Transversal 2: MediciÃ³n",
+      "eje": "Transversal 2: Medición",
       "prerrequisitos": [
         "UMNG-LAB3"
       ],
@@ -322,7 +322,7 @@
     },
     {
       "id": "UMNG-FES1",
-      "nombre": "FÃ­sica Estado SÃ³lido I",
+      "nombre": "Física Estado Sólido I",
       "semestre": 5,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -337,9 +337,9 @@
     },
     {
       "id": "UMNG-OPT1",
-      "nombre": "Optativa 1: ComunicaciÃ³n EstratÃ©gica de la Ciencia",
+      "nombre": "Optativa 1: Comunicación Estratégica de la Ciencia",
       "semestre": 5,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -375,7 +375,7 @@
     },
     {
       "id": "UMNG-FES2",
-      "nombre": "(Ã‰nfasis 1) FÃ­sica Estado SÃ³lido II",
+      "nombre": "(Á‰nfasis 1) Física Estado Sólido II",
       "semestre": 6,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -389,9 +389,9 @@
     },
     {
       "id": "UMNG-FISDIS",
-      "nombre": "(Ã‰nfasis 2) FÃ­sica de Dispositivos",
+      "nombre": "(Á‰nfasis 2) Física de Dispositivos",
       "semestre": 6,
-      "eje": "DiseÃ±o/Fab (b, c)",
+      "eje": "Diseño/Fab (b, c)",
       "prerrequisitos": [
         "UMNG-FES1"
       ],
@@ -403,9 +403,9 @@
     },
     {
       "id": "UMNG-QUIMAT",
-      "nombre": "QuÃ­mica de Materiales",
+      "nombre": "Química de Materiales",
       "semestre": 6,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [
         "UMNG-QUIM1"
       ],
@@ -417,9 +417,9 @@
     },
     {
       "id": "UMNG-OPT2",
-      "nombre": "Optativa 2: DidÃ¡ctica y PedagogÃ­a de la FÃ­sica",
+      "nombre": "Optativa 2: Didáctica y Pedagogía de la Física",
       "semestre": 6,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -455,9 +455,9 @@
     },
     {
       "id": "UMNG-CARAC",
-      "nombre": "(Ã‰nfasis 1) Lab. TÃ©cnicas de CaracterizaciÃ³n (SEM)",
+      "nombre": "(Á‰nfasis 1) Lab. Técnicas de Caracterización (SEM)",
       "semestre": 7,
-      "eje": "Transversal 2: MediciÃ³n",
+      "eje": "Transversal 2: Medición",
       "prerrequisitos": [
         "UMNG-FES1",
         "UMNG-LABM"
@@ -470,9 +470,9 @@
     },
     {
       "id": "UMNG-VLSI",
-      "nombre": "(Ã‰nfasis 2) Lab. DiseÃ±o VLSI",
+      "nombre": "(Á‰nfasis 2) Lab. Diseño VLSI",
       "semestre": 7,
-      "eje": "Transversal 1: SimulaciÃ³n",
+      "eje": "Transversal 1: Simulación",
       "prerrequisitos": [
         "UMNG-PHV",
         "UMNG-LED"
@@ -487,7 +487,7 @@
       "id": "UMNG-SENS",
       "nombre": "Sensores y Actuadores",
       "semestre": 7,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [
         "UMNG-FISDIS",
         "UMNG-LED"
@@ -500,7 +500,7 @@
     },
     {
       "id": "UMNG-GEOAP",
-      "nombre": "(Ã‰nfasis 1) GeofÃ­sica Aplicada",
+      "nombre": "(Á‰nfasis 1) Geofísica Aplicada",
       "semestre": 8,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -515,9 +515,9 @@
     },
     {
       "id": "UMNG-MINFAB",
-      "nombre": "(Ã‰nfasis 2) Lab. MicrofabricaciÃ³n (Minimal Fab)",
+      "nombre": "(Á‰nfasis 2) Lab. Microfabricación (Minimal Fab)",
       "semestre": 8,
-      "eje": "Transversal 2: MediciÃ³n",
+      "eje": "Transversal 2: Medición",
       "prerrequisitos": [
         "UMNG-VLSI",
         "UMNG-CARAC"
@@ -530,9 +530,9 @@
     },
     {
       "id": "UMNG-BIOFIS",
-      "nombre": "BiofÃ­sica y F. MÃ©dica",
+      "nombre": "Biofísica y F. Médica",
       "semestre": 8,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [
         "UMNG-SENS",
         "UMNG-MOD"
@@ -545,7 +545,7 @@
     },
     {
       "id": "UMNG-MATLAB",
-      "nombre": "(Ã‰nfasis 1) Lab. Crecimiento de Cristales / Proc. REE",
+      "nombre": "(Á‰nfasis 1) Lab. Crecimiento de Cristales / Proc. REE",
       "semestre": 9,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -560,9 +560,9 @@
     },
     {
       "id": "UMNG-GPROY",
-      "nombre": "GestiÃ³n Proyectos NewTech",
+      "nombre": "Gestión Proyectos NewTech",
       "semestre": 9,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -572,9 +572,9 @@
     },
     {
       "id": "UMNG-MEMS",
-      "nombre": "(Ã‰nfasis 2) MEMS y MicrofluÃ­dica",
+      "nombre": "(Á‰nfasis 2) MEMS y Microfluídica",
       "semestre": 10,
-      "eje": "DiseÃ±o/Fab (b, c)",
+      "eje": "Diseño/Fab (b, c)",
       "prerrequisitos": [
         "UMNG-MINFAB"
       ],
@@ -590,7 +590,7 @@
       "id": "UMNG-CAP",
       "nombre": "Proyecto Capstone: Chip de Autor",
       "semestre": 10,
-      "eje": "AplicaciÃ³n (d, e)",
+      "eje": "Aplicación (d, e)",
       "prerrequisitos": [
         "UMNG-GPROY",
         "UMNG-MINFAB",
@@ -606,19 +606,19 @@
   "ejes": [
     {
       "id": "1",
-      "nombre": "BÃ¡sico (FÃ­sica y Mat)",
+      "nombre": "Básico (Física y Mat)",
       "label": "BASIC",
       "color": "cyan"
     },
     {
       "id": "2",
-      "nombre": "Transversal 1: SimulaciÃ³n",
+      "nombre": "Transversal 1: Simulación",
       "label": "SIM",
       "color": "emerald"
     },
     {
       "id": "3",
-      "nombre": "Transversal 2: MediciÃ³n",
+      "nombre": "Transversal 2: Medición",
       "label": "LAB",
       "color": "amber"
     },
@@ -630,13 +630,13 @@
     },
     {
       "id": "5",
-      "nombre": "AplicaciÃ³n (d, e)",
+      "nombre": "Aplicación (d, e)",
       "label": "APP",
       "color": "rose"
     },
     {
       "id": "6",
-      "nombre": "DiseÃ±o/Fab (b, c)",
+      "nombre": "Diseño/Fab (b, c)",
       "label": "FAB",
       "color": "pink"
     },
@@ -648,11 +648,11 @@
     }
   ],
   "programInfo": {
-    "name": "FÃ­sica para la Nanociencia",
+    "name": "Física para la Nanociencia",
     "version": "4.0",
     "university": "Universidad Militar Nueva Granada",
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 10,
-  "lastUpdated": "2025-12-09T18:17:44.936Z"
+  "lastUpdated": "2025-12-09T18:28:18.937Z"
 }
