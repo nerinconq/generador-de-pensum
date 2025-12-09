@@ -545,7 +545,7 @@
     },
     {
       "id": "UMNG-MATLAB",
-      "nombre": "(ÁÂÁ¢â‚¬Â°nfasis 1) Lab. Crecimiento de Cristales / Proc. REE",
+      "nombre": "(�nfasis 1) Lab. Crecimiento de Cristales / Proc. REE",
       "semestre": 9,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -554,7 +554,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -572,7 +572,7 @@
     },
     {
       "id": "UMNG-MEMS",
-      "nombre": "(ÁÂÁ¢â‚¬Â°nfasis 2) MEMS y Microfluídica",
+      "nombre": "(�nfasis 2) MEMS y Microflu��dica",
       "semestre": 10,
       "eje": "Dise�o/Fab (b, c)",
       "prerrequisitos": [
@@ -582,7 +582,7 @@
         "UMNG-CAP"
       ],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:02:12.778Z"
+  "lastUpdated": "2025-12-09T22:03:18.813Z"
 }
