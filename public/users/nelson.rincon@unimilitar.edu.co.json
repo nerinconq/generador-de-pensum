@@ -455,7 +455,7 @@
     },
     {
       "id": "UMNG-CARAC",
-      "nombre": "(ÁÂÁ¢â‚¬Â°nfasis 1) Lab. Técnicas de Caracterización (SEM)",
+      "nombre": "(�nfasis 1) Lab. T�cnicas de Caracterizaci�n (SEM)",
       "semestre": 7,
       "eje": "Transversal 2: Medici�n",
       "prerrequisitos": [
@@ -464,7 +464,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -500,7 +500,7 @@
     },
     {
       "id": "UMNG-GEOAP",
-      "nombre": "(ÁÂÁ¢â‚¬Â°nfasis 1) Geofísica Aplicada",
+      "nombre": "(�nfasis 1) Geof�sica Aplicada",
       "semestre": 8,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -509,7 +509,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:01:04.740Z"
+  "lastUpdated": "2025-12-09T22:02:12.778Z"
 }
