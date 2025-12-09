@@ -2,69 +2,69 @@
   "subjects": [
     {
       "id": "UMNG-CAL1",
-      "nombre": "C醠culo I",
+      "nombre": "C谩lculo I",
       "semestre": 1,
-      "eje": "B醩ico (F韘ica y Mat)",
+      "eje": "B谩sico (F铆sica y Mat)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-PROG1",
-      "nombre": "Programaci髇 Fundamental (Python)",
+      "nombre": "Programaci贸n Fundamental (Python)",
       "semestre": 1,
-      "eje": "Transversal 1: Simulaci髇",
+      "eje": "Transversal 1: Simulaci贸n",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-LAB1",
-      "nombre": "Lab. F韘ica I (Mec醤ica)",
+      "nombre": "Lab. F铆sica I (Mec谩nica)",
       "semestre": 1,
-      "eje": "Transversal 2: Medici髇",
+      "eje": "Transversal 2: Medici贸n",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-QUIM1",
-      "nombre": "Qu韒ica General",
+      "nombre": "Qu铆mica General",
       "semestre": 1,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-INTRO",
-      "nombre": "Introducci髇 a la F韘ica Aplicada",
+      "nombre": "Introducci贸n a la F铆sica Aplicada",
       "semestre": 1,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-CAL2",
-      "nombre": "C醠culo II",
+      "nombre": "C谩lculo II",
       "semestre": 2,
-      "eje": "B醩ico (F韘ica y Mat)",
+      "eje": "B谩sico (F铆sica y Mat)",
       "prerrequisitos": [
         "UMNG-CAL1"
       ],
@@ -72,15 +72,15 @@
         "UMNG-ALIN"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-ALIN",
-      "nombre": "羖gebra Lineal",
+      "nombre": "脕lgebra Lineal",
       "semestre": 2,
-      "eje": "B醩ico (F韘ica y Mat)",
+      "eje": "B谩sico (F铆sica y Mat)",
       "prerrequisitos": [
         "UMNG-CAL1"
       ],
@@ -88,41 +88,41 @@
         "UMNG-CAL2"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-PCOM",
-      "nombre": "M閠odos Computacionales",
+      "nombre": "M茅todos Computacionales",
       "semestre": 2,
-      "eje": "Transversal 1: Simulaci髇",
+      "eje": "Transversal 1: Simulaci贸n",
       "prerrequisitos": [
         "UMNG-PROG1"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-LAB2",
-      "nombre": "Lab. F韘ica II (Ondas, 觩tica)",
+      "nombre": "Lab. F铆sica II (Ondas, 脫ptica)",
       "semestre": 2,
-      "eje": "Transversal 2: Medici髇",
+      "eje": "Transversal 2: Medici贸n",
       "prerrequisitos": [
         "UMNG-LAB1"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-FIS1",
-      "nombre": "F韘ica Mec醤ica",
+      "nombre": "F铆sica Mec谩nica",
       "semestre": 2,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -133,44 +133,44 @@
         "UMNG-CAL2"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-CAL3",
-      "nombre": "C醠culo III",
+      "nombre": "C谩lculo III",
       "semestre": 3,
-      "eje": "B醩ico (F韘ica y Mat)",
+      "eje": "B谩sico (F铆sica y Mat)",
       "prerrequisitos": [
         "UMNG-CAL2"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-SIM",
-      "nombre": "Simulaci髇 de Sistemas F韘icos",
+      "nombre": "Simulaci贸n de Sistemas F铆sicos",
       "semestre": 3,
-      "eje": "Transversal 1: Simulaci髇",
+      "eje": "Transversal 1: Simulaci贸n",
       "prerrequisitos": [
         "UMNG-PCOM",
         "UMNG-CAL2"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-LAB3",
-      "nombre": "Lab. F韘ica III (EM, An醠oga)",
+      "nombre": "Lab. F铆sica III (EM, An谩loga)",
       "semestre": 3,
-      "eje": "Transversal 2: Medici髇",
+      "eje": "Transversal 2: Medici贸n",
       "prerrequisitos": [
         "UMNG-LAB2"
       ],
@@ -178,13 +178,13 @@
         "UMNG-FIS2"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-FIS2",
-      "nombre": "F韘ica Ondas y EM",
+      "nombre": "F铆sica Ondas y EM",
       "semestre": 3,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -195,21 +195,21 @@
         "UMNG-CAL3"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-GEO",
-      "nombre": "Geolog韆 de Recursos",
+      "nombre": "Geolog铆a de Recursos",
       "semestre": 3,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [
         "UMNG-QUIM1"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -217,36 +217,36 @@
       "id": "UMNG-ECCDIF",
       "nombre": "Ecuaciones Diferenciales",
       "semestre": 4,
-      "eje": "B醩ico (F韘ica y Mat)",
+      "eje": "B谩sico (F铆sica y Mat)",
       "prerrequisitos": [
         "UMNG-CAL3",
         "UMNG-ALIN"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-FISCOM",
-      "nombre": "F韘ica Computacional (Estad韘tica)",
+      "nombre": "F铆sica Computacional (Estad铆stica)",
       "semestre": 4,
-      "eje": "Transversal 1: Simulaci髇",
+      "eje": "Transversal 1: Simulaci贸n",
       "prerrequisitos": [
         "UMNG-SIM"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-LABM",
-      "nombre": "Lab. F韘ica Moderna",
+      "nombre": "Lab. F铆sica Moderna",
       "semestre": 4,
-      "eje": "Transversal 2: Medici髇",
+      "eje": "Transversal 2: Medici贸n",
       "prerrequisitos": [
         "UMNG-LAB3"
       ],
@@ -254,13 +254,13 @@
         "UMNG-MOD"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-TERMO",
-      "nombre": "Termodin醡ica y F. Estad韘tica",
+      "nombre": "Termodin谩mica y F. Estad铆stica",
       "semestre": 4,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -269,15 +269,15 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-MOD",
-      "nombre": "F韘ica Moderna y Cu醤tica",
+      "nombre": "F铆sica Moderna y Cu谩ntica",
       "semestre": 4,
-      "eje": "B醩ico (F韘ica y Mat)",
+      "eje": "B谩sico (F铆sica y Mat)",
       "prerrequisitos": [
         "UMNG-FIS2",
         "UMNG-ECCDIF"
@@ -286,29 +286,29 @@
         "UMNG-LABM"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-PHV",
-      "nombre": "Programaci髇 de Hardware (Verilog)",
+      "nombre": "Programaci贸n de Hardware (Verilog)",
       "semestre": 5,
-      "eje": "Transversal 1: Simulaci髇",
+      "eje": "Transversal 1: Simulaci贸n",
       "prerrequisitos": [
         "UMNG-PCOM"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-LED",
-      "nombre": "Lab. Electr髇ica Digital",
+      "nombre": "Lab. Electr贸nica Digital",
       "semestre": 5,
-      "eje": "Transversal 2: Medici髇",
+      "eje": "Transversal 2: Medici贸n",
       "prerrequisitos": [
         "UMNG-LAB3"
       ],
@@ -316,13 +316,13 @@
         "UMNG-PHV"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-FES1",
-      "nombre": "F韘ica Estado S髄ido I",
+      "nombre": "F铆sica Estado S贸lido I",
       "semestre": 5,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -331,43 +331,43 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-OPT1",
-      "nombre": "Optativa 1: Comunicaci髇 Estrat間ica de la Ciencia",
+      "nombre": "Optativa 1: Comunicaci贸n Estrat茅gica de la Ciencia",
       "semestre": 5,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "title": "A. Optativa 1: Comunicaci髇 Estrat間ica de la Ciencia Aplicada",
-        "justificacion": "El egresado de este programa debe ser capaz de comunicar informaci髇 cient韋ica compleja a audiencias diversas 9: a sus pares (art韈ulos), a agencias de financiaci髇 (propuestas), a inversionistas de capital de riesgo (pitch de startup) y al p鷅lico general (divulgaci髇).8 Esta asignatura es un habilitador directo del modelo de emprendimiento (L韓ea 'd').",
+        "title": "A. Optativa 1: Comunicaci贸n Estrat茅gica de la Ciencia Aplicada",
+        "justificacion": "El egresado de este programa debe ser capaz de comunicar informaci贸n cient铆fica compleja a audiencias diversas 9: a sus pares (art铆culos), a agencias de financiaci贸n (propuestas), a inversionistas de capital de riesgo (pitch de startup) y al p煤blico general (divulgaci贸n).8 Esta asignatura es un habilitador directo del modelo de emprendimiento (L铆nea 'd').",
         "syllabus": [
           {
             "unidad": "1. Fundamentos",
-            "temas": "Identificaci髇 de audiencia, mensaje y prop髎ito. 蓆ica en la comunicaci髇. Estructura del argumento cient韋ico.",
-            "objetivos": "Reconocer y adaptarse a las necesidades de audiencias diversas (cient韋icas y no cient韋icas).",
+            "temas": "Identificaci贸n de audiencia, mensaje y prop贸sito. 脡tica en la comunicaci贸n. Estructura del argumento cient铆fico.",
+            "objetivos": "Reconocer y adaptarse a las necesidades de audiencias diversas (cient铆ficas y no cient铆ficas).",
             "fuentes": "44"
           },
           {
-            "unidad": "2. Comunicaci髇 Escrita",
-            "temas": "Redacci髇 de abstracts. Estructura de art韈ulo cient韋ico (estilo IEEE/APS). Redacci髇 de propuestas de financiaci髇 (estilo MinCiencias/NSF).",
-            "objetivos": "Producir documentos t閏nicos claros, concisos y persuasivos para la publicaci髇 y la financiaci髇.",
+            "unidad": "2. Comunicaci贸n Escrita",
+            "temas": "Redacci贸n de abstracts. Estructura de art铆culo cient铆fico (estilo IEEE/APS). Redacci贸n de propuestas de financiaci贸n (estilo MinCiencias/NSF).",
+            "objetivos": "Producir documentos t茅cnicos claros, concisos y persuasivos para la publicaci贸n y la financiaci贸n.",
             "fuentes": "8"
           },
           {
-            "unidad": "3. Comunicaci髇 Oral",
-            "temas": "Dise駉 de diapositivas efectivas (evitando \"muerte por PowerPoint\"). Defensa de p髎ter cient韋ico. \"El pitch de 3 minutos\" para emprendimiento.",
-            "objetivos": "Presentar investigaci髇 de forma oral, visual y profesional en formatos de conferencia y de negocios.",
+            "unidad": "3. Comunicaci贸n Oral",
+            "temas": "Dise帽o de diapositivas efectivas (evitando \"muerte por PowerPoint\"). Defensa de p贸ster cient铆fico. \"El pitch de 3 minutos\" para emprendimiento.",
+            "objetivos": "Presentar investigaci贸n de forma oral, visual y profesional en formatos de conferencia y de negocios.",
             "fuentes": "8"
           },
           {
-            "unidad": "4. Comunicaci髇 P鷅lica",
-            "temas": "Traducci髇 de la jerga cient韋ica. Redacci髇 de art韈ulos de divulgaci髇 (estilo popular media). Uso de medios digitales y redes sociales para la ciencia.",
-            "objetivos": "Destilar temas complejos en lenguaje claro y preciso para el p鷅lico general, combatiendo la desinformaci髇.",
+            "unidad": "4. Comunicaci贸n P煤blica",
+            "temas": "Traducci贸n de la jerga cient铆fica. Redacci贸n de art铆culos de divulgaci贸n (estilo popular media). Uso de medios digitales y redes sociales para la ciencia.",
+            "objetivos": "Destilar temas complejos en lenguaje claro y preciso para el p煤blico general, combatiendo la desinformaci贸n.",
             "fuentes": "9"
           }
         ]
@@ -375,7 +375,7 @@
     },
     {
       "id": "UMNG-FES2",
-      "nombre": "(蒼fasis 1) F韘ica Estado S髄ido II",
+      "nombre": "(脡nfasis 1) F铆sica Estado S贸lido II",
       "semestre": 6,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -383,71 +383,71 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-FISDIS",
-      "nombre": "(蒼fasis 2) F韘ica de Dispositivos",
+      "nombre": "(脡nfasis 2) F铆sica de Dispositivos",
       "semestre": 6,
-      "eje": "Dise駉/Fab (b, c)",
+      "eje": "Dise帽o/Fab (b, c)",
       "prerrequisitos": [
         "UMNG-FES1"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-QUIMAT",
-      "nombre": "Qu韒ica de Materiales",
+      "nombre": "Qu铆mica de Materiales",
       "semestre": 6,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [
         "UMNG-QUIM1"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-OPT2",
-      "nombre": "Optativa 2: Did醕tica y Pedagog韆 de la F韘ica",
+      "nombre": "Optativa 2: Did谩ctica y Pedagog铆a de la F铆sica",
       "semestre": 6,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "title": "B. Optativa 2: Did醕tica y Pedagog韆 de la F韘ica Aplicada",
-        "justificacion": "Atiende al \"importante rubro de la profesi髇\" que es la ense馻nza.1 Un f韘ico aplicado debe ser capaz de transferir su conocimiento de manera efectiva, ya sea en un entorno acad閙ico (docencia), corporativo (capacitaci髇) o p鷅lico (museos). Esta asignatura forma al estudiante en c髆o ense馻r conceptos complejos de f韘ica.",
+        "title": "B. Optativa 2: Did谩ctica y Pedagog铆a de la F铆sica Aplicada",
+        "justificacion": "Atiende al \"importante rubro de la profesi贸n\" que es la ense帽anza.1 Un f铆sico aplicado debe ser capaz de transferir su conocimiento de manera efectiva, ya sea en un entorno acad茅mico (docencia), corporativo (capacitaci贸n) o p煤blico (museos). Esta asignatura forma al estudiante en c贸mo ense帽ar conceptos complejos de f铆sica.",
         "syllabus": [
           {
             "unidad": "1. Fundamentos del Aprendizaje",
-            "temas": "Teor韆s del aprendizaje en ciencias. El problema de las \"concepciones alternativas\" (ej. en cu醤tica, EM).",
-            "objetivos": "Identificar y abordar las dificultades conceptuales comunes en el aprendizaje de la f韘ica.",
+            "temas": "Teor铆as del aprendizaje en ciencias. El problema de las \"concepciones alternativas\" (ej. en cu谩ntica, EM).",
+            "objetivos": "Identificar y abordar las dificultades conceptuales comunes en el aprendizaje de la f铆sica.",
             "fuentes": "10"
           },
           {
-            "unidad": "2. Dise駉 de Entornos",
-            "temas": "Dise駉 de unidades did醕ticas innovadoras. Desarrollo de pr醕ticas de laboratorio (f韘icas y virtuales) como herramienta pedag骻ica.",
-            "objetivos": "Crear entornos de aprendizaje significativos que conecten la teor韆 con la aplicaci髇.",
+            "unidad": "2. Dise帽o de Entornos",
+            "temas": "Dise帽o de unidades did谩cticas innovadoras. Desarrollo de pr谩cticas de laboratorio (f铆sicas y virtuales) como herramienta pedag贸gica.",
+            "objetivos": "Crear entornos de aprendizaje significativos que conecten la teor铆a con la aplicaci贸n.",
             "fuentes": "10"
           },
           {
-            "unidad": "3. Metodolog韆s de Ense馻nza",
-            "temas": "Aprendizaje Basado en Problemas (PBL). Instrucci髇 por pares (Peer Instruction). Aprendizaje Basado en Proyectos. Integraci髇 de la investigaci髇 en el aula.",
-            "objetivos": "Aplicar metodolog韆s activas centradas en el estudiante para la ense馻nza de la f韘ica aplicada.",
+            "unidad": "3. Metodolog铆as de Ense帽anza",
+            "temas": "Aprendizaje Basado en Problemas (PBL). Instrucci贸n por pares (Peer Instruction). Aprendizaje Basado en Proyectos. Integraci贸n de la investigaci贸n en el aula.",
+            "objetivos": "Aplicar metodolog铆as activas centradas en el estudiante para la ense帽anza de la f铆sica aplicada.",
             "fuentes": "11"
           },
           {
-            "unidad": "4. Evaluaci髇 de Competencias",
-            "temas": "Evaluaci髇 formativa vs. sumativa. Dise駉 de r鷅ricas para laboratorios y proyectos. Evaluaci髇 de habilidades de resoluci髇 de problemas.",
-            "objetivos": "Dise馻r e implementar estrategias de evaluaci髇 aut閚tica que midan la competencia cient韋ica.",
+            "unidad": "4. Evaluaci贸n de Competencias",
+            "temas": "Evaluaci贸n formativa vs. sumativa. Dise帽o de r煤bricas para laboratorios y proyectos. Evaluaci贸n de habilidades de resoluci贸n de problemas.",
+            "objetivos": "Dise帽ar e implementar estrategias de evaluaci贸n aut茅ntica que midan la competencia cient铆fica.",
             "fuentes": "52"
           }
         ]
@@ -455,31 +455,31 @@
     },
     {
       "id": "UMNG-CARAC",
-      "nombre": "(蒼fasis 1) Lab. T閏nicas de Caracterizaci髇 (SEM)",
+      "nombre": "(脡nfasis 1) Lab. T茅cnicas de Caracterizaci贸n (SEM)",
       "semestre": 7,
-      "eje": "Transversal 2: Medici髇",
+      "eje": "Transversal 2: Medici贸n",
       "prerrequisitos": [
         "UMNG-FES1",
         "UMNG-LABM"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-VLSI",
-      "nombre": "(蒼fasis 2) Lab. Dise駉 VLSI",
+      "nombre": "(脡nfasis 2) Lab. Dise帽o VLSI",
       "semestre": 7,
-      "eje": "Transversal 1: Simulaci髇",
+      "eje": "Transversal 1: Simulaci贸n",
       "prerrequisitos": [
         "UMNG-PHV",
         "UMNG-LED"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -487,20 +487,20 @@
       "id": "UMNG-SENS",
       "nombre": "Sensores y Actuadores",
       "semestre": 7,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [
         "UMNG-FISDIS",
         "UMNG-LED"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-GEOAP",
-      "nombre": "(蒼fasis 1) Geof韘ica Aplicada",
+      "nombre": "(脡nfasis 1) Geof铆sica Aplicada",
       "semestre": 8,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -509,43 +509,43 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-MINFAB",
-      "nombre": "(蒼fasis 2) Lab. Microfabricaci髇 (Minimal Fab)",
+      "nombre": "(脡nfasis 2) Lab. Microfabricaci贸n (Minimal Fab)",
       "semestre": 8,
-      "eje": "Transversal 2: Medici髇",
+      "eje": "Transversal 2: Medici贸n",
       "prerrequisitos": [
         "UMNG-VLSI",
         "UMNG-CARAC"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-BIOFIS",
-      "nombre": "Biof韘ica y F. M閐ica",
+      "nombre": "Biof铆sica y F. M茅dica",
       "semestre": 8,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [
         "UMNG-SENS",
         "UMNG-MOD"
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-MATLAB",
-      "nombre": "(蒼fasis 1) Lab. Crecimiento de Cristales / Proc. REE",
+      "nombre": "(脡nfasis 1) Lab. Crecimiento de Cristales / Proc. REE",
       "semestre": 9,
       "eje": "Materiales/Geo (a, f)",
       "prerrequisitos": [
@@ -554,27 +554,27 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-GPROY",
-      "nombre": "Gesti髇 Proyectos NewTech",
+      "nombre": "Gesti贸n Proyectos NewTech",
       "semestre": 9,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-MEMS",
-      "nombre": "(蒼fasis 2) MEMS y Microflu韉ica",
+      "nombre": "(脡nfasis 2) MEMS y Microflu铆dica",
       "semestre": 10,
-      "eje": "Dise駉/Fab (b, c)",
+      "eje": "Dise帽o/Fab (b, c)",
       "prerrequisitos": [
         "UMNG-MINFAB"
       ],
@@ -582,7 +582,7 @@
         "UMNG-CAP"
       ],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -590,7 +590,7 @@
       "id": "UMNG-CAP",
       "nombre": "Proyecto Capstone: Chip de Autor",
       "semestre": 10,
-      "eje": "Aplicaci髇 (d, e)",
+      "eje": "Aplicaci贸n (d, e)",
       "prerrequisitos": [
         "UMNG-GPROY",
         "UMNG-MINFAB",
@@ -598,7 +598,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci贸n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     }
@@ -606,19 +606,19 @@
   "ejes": [
     {
       "id": "1",
-      "nombre": "B醩ico (F韘ica y Mat)",
+      "nombre": "B谩sico (F铆sica y Mat)",
       "label": "BASIC",
       "color": "cyan"
     },
     {
       "id": "2",
-      "nombre": "Transversal 1: Simulaci髇",
+      "nombre": "Transversal 1: Simulaci贸n",
       "label": "SIM",
       "color": "emerald"
     },
     {
       "id": "3",
-      "nombre": "Transversal 2: Medici髇",
+      "nombre": "Transversal 2: Medici贸n",
       "label": "LAB",
       "color": "amber"
     },
@@ -630,23 +630,23 @@
     },
     {
       "id": "5",
-      "nombre": "Aplicaci髇 (d, e)",
+      "nombre": "Aplicaci贸n (d, e)",
       "label": "APP",
       "color": "rose"
     },
     {
       "id": "6",
-      "nombre": "Dise駉/Fab (b, c)",
+      "nombre": "Dise帽o/Fab (b, c)",
       "label": "FAB",
       "color": "pink"
     }
   ],
   "programInfo": {
-    "name": "F韘ica para la Nanociencia",
+    "name": "F铆sica para la Nanociencia",
     "version": "4.0",
     "university": "Universidad Militar Nueva Granada",
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 10,
-  "lastUpdated": "2025-12-09T15:03:38.302Z"
+  "lastUpdated": "2025-12-09T17:50:38.709Z"
 }
