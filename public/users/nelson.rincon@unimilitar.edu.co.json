@@ -52,7 +52,7 @@
       "id": "UMNG-INTRO",
       "nombre": "Introducci贸n a la F铆sica Aplicada",
       "semestre": 1,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -62,7 +62,7 @@
     },
     {
       "id": "UMNG-CAL2",
-      "nombre": "C谩lculo II",
+      "nombre": "C醠culo II",
       "semestre": 2,
       "eje": "B醩ico (F韘ica y Mat)",
       "prerrequisitos": [
@@ -72,7 +72,7 @@
         "UMNG-ALIN"
       ],
       "details": {
-        "justificacion": "No hay una justificaci脙茠脝鈥櫭冣�毭偮硁 detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci髇 detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -203,7 +203,7 @@
       "id": "UMNG-GEO",
       "nombre": "Geolog铆a de Recursos",
       "semestre": 3,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [
         "UMNG-QUIM1"
       ],
@@ -339,7 +339,7 @@
       "id": "UMNG-OPT1",
       "nombre": "Optativa 1: Comunicaci贸n Estrat茅gica de la Ciencia",
       "semestre": 5,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -391,7 +391,7 @@
       "id": "UMNG-FISDIS",
       "nombre": "(脕聛脗聛脕垄芒鈥毬偮皀fasis 2) F铆sica de Dispositivos",
       "semestre": 6,
-      "eje": "Dise帽o/Fab (b, c)",
+      "eje": "Dise駉/Fab (b, c)",
       "prerrequisitos": [
         "UMNG-FES1"
       ],
@@ -405,7 +405,7 @@
       "id": "UMNG-QUIMAT",
       "nombre": "Qu铆mica de Materiales",
       "semestre": 6,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [
         "UMNG-QUIM1"
       ],
@@ -419,7 +419,7 @@
       "id": "UMNG-OPT2",
       "nombre": "Optativa 2: Did谩ctica y Pedagog铆a de la F铆sica",
       "semestre": 6,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -487,7 +487,7 @@
       "id": "UMNG-SENS",
       "nombre": "Sensores y Actuadores",
       "semestre": 7,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [
         "UMNG-FISDIS",
         "UMNG-LED"
@@ -532,7 +532,7 @@
       "id": "UMNG-BIOFIS",
       "nombre": "Biof铆sica y F. M茅dica",
       "semestre": 8,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [
         "UMNG-SENS",
         "UMNG-MOD"
@@ -562,7 +562,7 @@
       "id": "UMNG-GPROY",
       "nombre": "Gesti贸n Proyectos NewTech",
       "semestre": 9,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
@@ -574,7 +574,7 @@
       "id": "UMNG-MEMS",
       "nombre": "(脕聛脗聛脕垄芒鈥毬偮皀fasis 2) MEMS y Microflu铆dica",
       "semestre": 10,
-      "eje": "Dise帽o/Fab (b, c)",
+      "eje": "Dise駉/Fab (b, c)",
       "prerrequisitos": [
         "UMNG-MINFAB"
       ],
@@ -590,7 +590,7 @@
       "id": "UMNG-CAP",
       "nombre": "Proyecto Capstone: Chip de Autor",
       "semestre": 10,
-      "eje": "Aplicaci贸n (d, e)",
+      "eje": "Aplicaci髇 (d, e)",
       "prerrequisitos": [
         "UMNG-GPROY",
         "UMNG-MINFAB",
@@ -642,13 +642,13 @@
     },
     {
       "id": "5",
-      "nombre": "Aplicaci贸n (d, e)",
+      "nombre": "Aplicaci髇 (d, e)",
       "label": "APP",
       "color": "rose"
     },
     {
       "id": "6",
-      "nombre": "Dise帽o/Fab (b, c)",
+      "nombre": "Dise駉/Fab (b, c)",
       "label": "FAB",
       "color": "pink"
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T21:58:26.707Z"
+  "lastUpdated": "2025-12-09T21:59:33.224Z"
 }
