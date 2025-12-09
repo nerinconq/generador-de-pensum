@@ -639,6 +639,12 @@
       "nombre": "Diseño/Fab (b, c)",
       "label": "FAB",
       "color": "pink"
+    },
+    {
+      "id": "1765283873654",
+      "nombre": "Grado",
+      "label": "GRA",
+      "color": "lime"
     }
   ],
   "programInfo": {
@@ -648,5 +654,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 10,
-  "lastUpdated": "2025-12-09T18:02:21.746Z"
+  "lastUpdated": "2025-12-09T18:02:41.722Z"
 }
