@@ -424,30 +424,30 @@
       "correquisitos": [],
       "details": {
         "title": "B. Optativa 2: DidÃƒÆ’Ã‚Â¡ctica y PedagogÃƒÆ’Ã‚Â­a de la FÃƒÆ’Ã‚Â­sica Aplicada",
-        "justificacion": "Atiende al \"importante rubro de la profesiÃƒÆ’Ã‚Â³n\" que es la enseÃƒÆ’Ã‚Â±anza.1 Un fÃƒÆ’Ã‚Â­sico aplicado debe ser capaz de transferir su conocimiento de manera efectiva, ya sea en un entorno acadÃƒÆ’Ã‚Â©mico (docencia), corporativo (capacitaciÃƒÆ’Ã‚Â³n) o pÃƒÆ’Ã‚Âºblico (museos). Esta asignatura forma al estudiante en cÃƒÆ’Ã‚Â³mo enseÃƒÆ’Ã‚Â±ar conceptos complejos de fÃƒÆ’Ã‚Â­sica.",
+        "justificacion": "Atiende al \"importante rubro de la profesi�n\" que es la ense�anza.1 Un f�sico aplicado debe ser capaz de transferir su conocimiento de manera efectiva, ya sea en un entorno acad�mico (docencia), corporativo (capacitaci�n) o p�blico (museos). Esta asignatura forma al estudiante en c�mo ense�ar conceptos complejos de f�sica.",
         "syllabus": [
           {
             "unidad": "1. Fundamentos del Aprendizaje",
-            "temas": "TeorÃƒÆ’Ã‚Â­as del aprendizaje en ciencias. El problema de las \"concepciones alternativas\" (ej. en cuÃƒÆ’Ã‚Â¡ntica, EM).",
-            "objetivos": "Identificar y abordar las dificultades conceptuales comunes en el aprendizaje de la fÃƒÆ’Ã‚Â­sica.",
+            "temas": "Teor�as del aprendizaje en ciencias. El problema de las \"concepciones alternativas\" (ej. en cu�ntica, EM).",
+            "objetivos": "Identificar y abordar las dificultades conceptuales comunes en el aprendizaje de la f�sica.",
             "fuentes": "10"
           },
           {
-            "unidad": "2. DiseÃƒÆ’Ã‚Â±o de Entornos",
-            "temas": "DiseÃƒÆ’Ã‚Â±o de unidades didÃƒÆ’Ã‚Â¡cticas innovadoras. Desarrollo de prÃƒÆ’Ã‚Â¡cticas de laboratorio (fÃƒÆ’Ã‚Â­sicas y virtuales) como herramienta pedagÃƒÆ’Ã‚Â³gica.",
-            "objetivos": "Crear entornos de aprendizaje significativos que conecten la teorÃƒÆ’Ã‚Â­a con la aplicaciÃƒÆ’Ã‚Â³n.",
+            "unidad": "2. Dise�o de Entornos",
+            "temas": "Dise�o de unidades did�cticas innovadoras. Desarrollo de pr�cticas de laboratorio (f�sicas y virtuales) como herramienta pedag�gica.",
+            "objetivos": "Crear entornos de aprendizaje significativos que conecten la teor�a con la aplicaci�n.",
             "fuentes": "10"
           },
           {
-            "unidad": "3. MetodologÃƒÆ’Ã‚Â­as de EnseÃƒÆ’Ã‚Â±anza",
-            "temas": "Aprendizaje Basado en Problemas (PBL). InstrucciÃƒÆ’Ã‚Â³n por pares (Peer Instruction). Aprendizaje Basado en Proyectos. IntegraciÃƒÆ’Ã‚Â³n de la investigaciÃƒÆ’Ã‚Â³n en el aula.",
-            "objetivos": "Aplicar metodologÃƒÆ’Ã‚Â­as activas centradas en el estudiante para la enseÃƒÆ’Ã‚Â±anza de la fÃƒÆ’Ã‚Â­sica aplicada.",
+            "unidad": "3. Metodolog�as de Ense�anza",
+            "temas": "Aprendizaje Basado en Problemas (PBL). Instrucci�n por pares (Peer Instruction). Aprendizaje Basado en Proyectos. Integraci�n de la investigaci�n en el aula.",
+            "objetivos": "Aplicar metodolog�as activas centradas en el estudiante para la ense�anza de la f�sica aplicada.",
             "fuentes": "11"
           },
           {
-            "unidad": "4. EvaluaciÃƒÆ’Ã‚Â³n de Competencias",
-            "temas": "EvaluaciÃƒÆ’Ã‚Â³n formativa vs. sumativa. DiseÃƒÆ’Ã‚Â±o de rÃƒÆ’Ã‚Âºbricas para laboratorios y proyectos. EvaluaciÃƒÆ’Ã‚Â³n de habilidades de resoluciÃƒÆ’Ã‚Â³n de problemas.",
-            "objetivos": "DiseÃƒÆ’Ã‚Â±ar e implementar estrategias de evaluaciÃƒÆ’Ã‚Â³n autÃƒÆ’Ã‚Â©ntica que midan la competencia cientÃƒÆ’Ã‚Â­fica.",
+            "unidad": "4. Evaluaci�n de Competencias",
+            "temas": "Evaluaci�n formativa vs. sumativa. Dise�o de r�bricas para laboratorios y proyectos. Evaluaci�n de habilidades de resoluci�n de problemas.",
+            "objetivos": "Dise�ar e implementar estrategias de evaluaci�n aut�ntica que midan la competencia cient�fica.",
             "fuentes": "52"
           }
         ]
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:07:55.280Z"
+  "lastUpdated": "2025-12-09T22:13:20.154Z"
 }
