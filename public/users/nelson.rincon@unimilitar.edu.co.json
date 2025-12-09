@@ -230,7 +230,7 @@
     },
     {
       "id": "UMNG-FISCOM",
-      "nombre": "Física Computacional (Estadística)",
+      "nombre": "F�sica Computacional (Estad�stica)",
       "semestre": 4,
       "eje": "Transversal 1: Simulaci�n",
       "prerrequisitos": [
@@ -238,13 +238,13 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
     {
       "id": "UMNG-LABM",
-      "nombre": "Lab. Física Moderna",
+      "nombre": "Lab. F�sica Moderna",
       "semestre": 4,
       "eje": "Transversal 2: Medici�n",
       "prerrequisitos": [
@@ -254,7 +254,7 @@
         "UMNG-MOD"
       ],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:23:37.799Z"
+  "lastUpdated": "2025-12-09T22:26:28.781Z"
 }
