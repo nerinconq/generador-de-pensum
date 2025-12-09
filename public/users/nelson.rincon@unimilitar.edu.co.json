@@ -515,7 +515,7 @@
     },
     {
       "id": "UMNG-MINFAB",
-      "nombre": "(ÁÂÁ¢â‚¬Â°nfasis 2) Lab. Microfabricación (Minimal Fab)",
+      "nombre": "(�nfasis 2) Lab. Microfabricaci�n (Minimal Fab)",
       "semestre": 8,
       "eje": "Transversal 2: Medici�n",
       "prerrequisitos": [
@@ -524,7 +524,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -560,13 +560,13 @@
     },
     {
       "id": "UMNG-GPROY",
-      "nombre": "Gestión Proyectos NewTech",
+      "nombre": "Gesti�n Proyectos NewTech",
       "semestre": 9,
       "eje": "Aplicaci�n (d, e)",
       "prerrequisitos": [],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -598,7 +598,7 @@
       ],
       "correquisitos": [],
       "details": {
-        "justificacion": "No hay una justificaciÃƒÆ’Ã‚Â³n detallada disponible para esta asignatura.",
+        "justificacion": "No hay una justificaci�n detallada disponible para esta asignatura.",
         "syllabus": []
       }
     },
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:03:18.813Z"
+  "lastUpdated": "2025-12-09T22:04:25.117Z"
 }
