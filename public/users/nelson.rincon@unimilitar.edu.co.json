@@ -417,7 +417,7 @@
     },
     {
       "id": "UMNG-OPT2",
-      "nombre": "Optativa 2: Didáctica y Pedagogí­a de la Fí­sica",
+      "nombre": "Optativa 2: Didáctica y Pedagogía de la Física Aplicada",
       "semestre": 6,
       "eje": "Aplicación (d, e)",
       "prerrequisitos": [],
@@ -666,5 +666,5 @@
     "email": "nelson.rincon@unimilitar.edu.co"
   },
   "totalSemesters": 11,
-  "lastUpdated": "2025-12-09T22:15:56.222Z"
+  "lastUpdated": "2025-12-09T22:18:10.813Z"
 }
