@@ -326,7 +326,19 @@ export default function App() {
       pdf.setFillColor(isDark ? 2 : 248, isDark ? 6 : 250, isDark ? 23 : 252);
       pdf.rect(0, 0, pdfWidth, pdfHeight, 'F');
       pdf.addImage(imgData, 'PNG', imgX, imgY, imgWidth * ratio, imgHeight * ratio);
+
+      // Save and open PDF
+      const pdfBlob = pdf.output('blob');
+      const pdfUrl = URL.createObjectURL(pdfBlob);
+
+      // Download PDF
       pdf.save('pensum_nanociencia.pdf');
+
+      // Open PDF in new tab
+      window.open(pdfUrl, '_blank');
+
+      // Clean up URL after a delay
+      setTimeout(() => URL.revokeObjectURL(pdfUrl), 1000);
     } catch (error) {
       console.error("Error exporting PDF:", error);
       alert("Hubo un error al generar el PDF.");
@@ -354,6 +366,9 @@ export default function App() {
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
+
+    // Show success message
+    window.alert('✅ Archivo JSON descargado exitosamente.\n\nPuedes importarlo más tarde para recuperar tu progreso.');
   };
 
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -461,11 +476,10 @@ export default function App() {
   };
 
   const handleLogout = () => {
-    if (window.confirm("¿Seguro que quieres salir? Se borrarán los datos de sesión local (pero se conservará el avance si no limpias el caché).")) {
-      localStorage.removeItem('pensum_started');
-      setHasStarted(false);
-      window.location.reload();
-    }
+    // Only clear the session flag, keep all data
+    localStorage.removeItem('pensum_started');
+    setHasStarted(false);
+    window.location.reload();
   };
 
   if (!hasStarted) {
